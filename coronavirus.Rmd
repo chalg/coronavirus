@@ -48,13 +48,14 @@ url <- "https://www.worldometers.info/coronavirus/"
 
 # Set theme for ggplot
 theme_set(theme_minimal())
-# //*[@id="main_table_countries_today"]
 
 ```
 
 
 
 ```{r gather_clean, echo=FALSE, include=FALSE}
+# Note: the below xpath has changed once and new variables have been added to the 
+# HTML table.
 coronavirus <- url %>% 
   xml2::read_html() %>% 
   html_node(xpath = '//*[@id="main_table_countries_today"]') %>% 
@@ -110,12 +111,6 @@ all_corona <- corona %>%
                           "State of Palestine" = "Palestine"),
          tstamp = Sys.Date()) %>% 
   select(tstamp, country, observation, obs_ord, count)
-
-# Get continent mapping from here: https://ourworldindata.org/world-region-map-definitions
-# continents <- read_csv("~/R/coronavirus/data/continents-our-world-in-data.csv")
-# 
-# # Join by Country
-# all_corona <- all_corona %>% left_join(continents, by = "country")
 
 glimpse(all_corona)
 
@@ -262,7 +257,7 @@ coronadf %>%
   # scale_y_continuous(trans = 'log10') +
   scale_y_log10(labels = scales::comma) +
   scale_x_date(date_breaks = "3 day", date_labels = "%d %b") +
-  labs(title = "Coronavirus Trend - Top Uranium Producers",
+  labs(title = "Coronavirus Trend - Total cases",
        y = "Total Cases per 1m Population (log scale)", x = "",
        caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") + 
   theme_light() +
@@ -297,7 +292,6 @@ all_corona %>%
   # if(any(all_corona$country == "Australia")) #gghighlight(country == "Australia", unhighlighted_colour = "gray75")
   coord_flip() +
   scale_y_log10(labels = scales::comma) +
-  # facet_wrap(~ obs_ord, scales = "free") +
   labs(title = "Coronavirus New Cases by Country (top 50)",
        y = "Count (log scale)", x = NULL,
        caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") +
@@ -328,7 +322,6 @@ all_corona %>%
   gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
   coord_flip() +
   scale_y_log10(labels = scales::comma) +
-  # facet_wrap(~ obs_ord, scales = "free") +
   labs(title = "Coronavirus Active Cases by Country (top 50)",
        y = "Count (log scale)", x = NULL,
        caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") +
