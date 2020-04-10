@@ -7,25 +7,16 @@ Use R Markdown to create a Coronavirus Snapshot Report.
 
 If you wish to try this out on your own, you will need R installed. I used the following libraries:
 
-- library(rvest)       # webscraping
-- library(janitor)     # clean column names
-- library(tidyverse)   # reading in data, general manipulation of data and plotting (ggplot2) 
-- library(gghighlight) # used to highlight certain lines in geom_line
-- library(httr)        # calling API from a URL
-- library(jsonlite)    # manipulating JSON structure
-- library(lubridate)   # manipulating dates
-- library(scales)      # manipulating ggplot scales
-
 | Library  | Rationale |
 | ---------- | -------------------------------------------------------------------- |
-| rvest      | webscraping                                                          |
-| janitor    | clean column names                                                   |
-| tidyverse  | reading in data, general manipulation of data and plotting (ggplot2) |
-| gghighlight| used to highlight certain lines in geom_line                         |
-| httr       | calling API from a URL                                               |
-| jsonlite   | manipulating JSON structure                                          |
-| lubridate  | manipulating dates                                                   |
-| scales     | manipulating ggplot scales                                           |
+| `rvest`      | webscraping                                                          |
+| `janitor`    | clean column names                                                   |
+| `tidyverse`  | reading in data, general manipulation of data and plotting (ggplot2) |
+| `gghighlight`| used to highlight certain lines in geom_line                         |
+| `httr`       | calling API from a URL                                               |
+| `jsonlite`   | manipulating JSON structure                                          |
+| `lubridate`  | manipulating dates                                                   |
+| `scales`     | manipulating ggplot scales                                           |
 
 
 ### Tips
@@ -90,7 +81,6 @@ if (TRUE %in% (list.files() == fn)) {
 } 
 
 ```
-
 
 ## Authors
 
