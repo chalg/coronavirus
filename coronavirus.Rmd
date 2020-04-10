@@ -1,0 +1,429 @@
+---
+title: "Coronavirus Snapshot"
+author: "Author: Grant Chalmers"
+date: "Created 5 Mar, 2020; Last Update `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    df_print: paged
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  fig.align = "centre",
+  fig.height = 7,
+  fig.width = 9,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE)
+
+knitr::knit_hooks$set(inline = function(x) {
+prettyNum(x, big.mark=",")
+})
+
+options(tibble.print_max = 5, tibble.print_min = 5)
+```
+
+```{r load_libraries, include=FALSE}
+library(rvest)
+library(janitor)
+library(tidyverse)
+library(gghighlight)
+library(httr)
+library(jsonlite)
+library(lubridate)
+library(scales)
+
+```
+
+
+
+```{r setup_basic, include=FALSE, echo=FALSE}
+# Setup data
+# Remove scientific notation
+options(scipen=999)
+
+url <- "https://www.worldometers.info/coronavirus/"
+
+# Set theme for ggplot
+theme_set(theme_minimal())
+# //*[@id="main_table_countries_today"]
+
+```
+
+
+
+```{r gather_clean, echo=FALSE, include=FALSE}
+coronavirus <- url %>% 
+  xml2::read_html() %>% 
+  html_node(xpath = '//*[@id="main_table_countries_today"]') %>% 
+  html_table()
+
+
+# Use Janitor function to clean column names
+coronavirus <-  coronavirus %>% clean_names()
+# Review
+coronavirus %>% glimpse()
+# Clean up commas from HTML numeric format
+coronavirus <- coronavirus %>% 
+  mutate_all(funs(str_replace(., ",", "")))
+# Convert to numeric
+corona <- coronavirus %>% select(-country_other) %>% 
+  mutate_if(is.character, as.numeric)
+
+# Add countries back in
+corona <- corona %>% add_column(coronavirus$country_other)
+# Review
+glimpse(corona)
+
+# Fix name of country column and change order so it is first, calc total_deaths
+# before converting to long (tidy) format
+corona <- corona %>%
+  select(country = `coronavirus$country_other`, everything()) %>% 
+  mutate(total_deaths = total_cases - (active_cases + total_recovered),
+         death_rate = round((total_deaths / total_cases * 100), 2))
+# Review
+glimpse(corona)
+
+head(corona)
+
+# Gather all data, tidy and standardise country names in prep for joining
+all_corona <- corona %>% 
+  filter(!country %in% c("Total:", "Diamond Princess")) %>% 
+  pivot_longer(-country, names_to = "observation", values_to = "count") %>% 
+  mutate(obs_ord = factor(observation,
+                          levels=c("total_cases", "new_cases", "active_cases",
+                                   "total_recovered", "total_deaths",
+                                   "serious_critical", "death_rate",
+                                   "tot_cases_1m_pop"),
+                          labels=c("Total Cases", "New Cases", "Active Cases",
+                                   "Total Recovered", "Total Deaths",
+                                   "Serious Critical", "Death Rate",
+                                   "Total Cases per 1m Population")),
+         country = recode(country,
+                          "S. Korea" = "South Korea",
+                          "USA" = "United States",
+                          "U.K." = "United Kingdom",
+                          "U.A.E." = "United Arab Emirates",
+                          "Czechia" = "Czech Republic",
+                          "State of Palestine" = "Palestine"),
+         tstamp = Sys.Date()) %>% 
+  select(tstamp, country, observation, obs_ord, count)
+
+# Get continent mapping from here: https://ourworldindata.org/world-region-map-definitions
+# continents <- read_csv("~/R/coronavirus/data/continents-our-world-in-data.csv")
+# 
+# # Join by Country
+# all_corona <- all_corona %>% left_join(continents, by = "country")
+
+glimpse(all_corona)
+
+```
+
+```{r write_csv, echo=FALSE, include=FALSE}
+# Write csv for time series analysis, later...
+data_path <- "~/R/coronavirus/data/"   # path to the data
+sys_date <- Sys.Date()
+filename <- paste0(data_path,"corona", "_", sys_date, ".csv")
+
+# Write to csv
+# Write to csv
+if (exists("all_corona")) {
+  write_csv(all_corona, filename)
+}
+```
+
+
+### Review overall totals.
+
+Note: all totals exclude the Diamond Princess.
+
+```{r totals, echo=FALSE}
+# Review overall totals
+
+all_corona %>% filter(!is.na(count), !obs_ord %in% c("Death Rate", "Total Cases per 1m Population", NA)) %>%
+  group_by(obs_ord) %>%
+  summarise(grp_tot = sum(count)) %>% 
+  select(Observation = obs_ord,
+         Total = grp_tot) %>% knitr::kable(format.args = list(decimal.mark = '.', big.mark = ","))
+
+```
+
+### Australian totals..
+
+```{r oz_totals, echo=FALSE}
+all_corona %>% filter(!is.na(count), !is.na(obs_ord), country == "Australia") %>%
+  group_by(country, obs_ord) %>%
+  summarise(grp_tot = sum(count)) %>% 
+  select(Country = country,
+         Observation = obs_ord,
+         Total = grp_tot) %>% 
+   knitr::kable(format.args = list(decimal.mark = '.', big.mark = ","))
+```
+
+### Death Rates
+
+Top 10 death rates. Newly infected countries may initially have a high rate,
+which should decrease over time.
+
+```{r death_rates, echo=FALSE}
+# Top 10 death rate
+all_corona %>% filter(!is.na(count), obs_ord == "Death Rate") %>%
+  top_n(10, wt = count) %>% 
+  select(Country = country,
+         "Death Rate (%)" = count) %>% 
+  arrange(desc(`Death Rate (%)`)) %>% 
+  knitr::kable(format.args = list(decimal.mark = '.', big.mark = ","))
+```
+
+### Total cases per 1 million population
+
+
+```{r tot_cases_1m_pop, echo=FALSE}
+# Top 10 cases per 1m of population
+all_corona %>% filter(!is.na(count), obs_ord == "Total Cases per 1m Population") %>%
+  top_n(10, wt = count) %>% 
+  select(Country = country,
+         "Total Cases per 1m Population" = count) %>% 
+  arrange(desc(`Total Cases per 1m Population`)) %>% 
+  knitr::kable(format.args = list(decimal.mark = '.', big.mark = ","))
+
+```
+
+View a lollipop chart of the top 50 countries. 
+Note: x-axis is log scale.
+
+### Total Cases.
+
+```{r plot_lollipop, echo=FALSE}
+all_corona %>%
+  filter(observation %in% c("tot_cases_1m_pop"),
+         count > 0) %>% 
+  group_by(observation) %>%
+  top_n(n = 50, wt = count) %>% 
+  ggplot(aes(x=fct_reorder(country, count), y=count)) +
+  geom_point(size=3, colour = "plum") + 
+  geom_segment(aes(x=country, 
+                   xend=country, 
+                   y=0, 
+                   yend=count), colour = "plum", size = 0.75) +
+  # gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+  coord_flip() +
+  # scale_y_log10(labels = scales::comma) +
+  # facet_wrap(~ obs_ord, scales = "free") +
+  labs(title = "Coronavirus Total Cases per 1m Population (top 50)",
+       y = "Count", x = NULL,
+       caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        axis.text.y = element_text(size = 8.5, colour = "darkblue"),
+        axis.title = element_text(size = 11), legend.position = "none",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+
+# ggsave("lollipop_facet.png", path = "images")
+
+```
+
+Time series trend (log scale) for selected countries. 
+
+*Highlight 9 random countries out of the top 100 for some variety each day!!*
+
+```{r line_plot, echo=FALSE}
+data_path <- "~/R/coronavirus/data/"   # path to the data
+
+files <- dir(data_path, pattern = "*.csv") # get file names
+
+coronadf <- files %>%
+  map_df(~ read_csv(file.path(data_path, .),
+                    col_types = cols(tstamp = col_date())))
+
+top_100_new_cases <- coronadf %>% 
+  filter(observation %in% c("new_cases"),
+         count > 0) %>%
+  group_by(country) %>%
+  summarise(grp_total = sum(count)) %>% 
+  top_n(n = 100, wt = grp_total) %>% pull(country) %>% unique()
+
+coronadf %>%
+  filter(observation	%in% c("tot_cases_1m_pop"),
+         country %in% top_100_new_cases,
+         !is.na(count)) %>% 
+  ggplot(aes(x = tstamp, y = count)) +
+  geom_line(aes(colour = country), size = 1) +
+  gghighlight(country %in% sample(top_100_new_cases, 9),     # try randon sample
+  # gghighlight(country %in% c("Australia", "Kazakhstan", "Canada", "Namibia", "Ukraine",
+  #                            "Niger", "China", "Russia", "Uzbekistan", "United States"),
+              unhighlighted_colour = ggplot2::alpha("grey", 0.7),
+              use_group_by = FALSE, label_key = country, label_params = list(size = 3, alpha = 0.75)) +
+  # scale_y_continuous(trans = 'log10') +
+  scale_y_log10(labels = scales::comma) +
+  scale_x_date(date_breaks = "3 day", date_labels = "%d %b") +
+  labs(title = "Coronavirus Trend - Top Uranium Producers",
+       y = "Total Cases per 1m Population (log scale)", x = "",
+       caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") + 
+  theme_light() +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"),
+        axis.title = element_text(size = 11), legend.position = "bottom",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+
+ggsave("total_cases_per_1m_log.png", path = "images", width = 8, height = 6)
+
+```
+
+### New Cases.
+
+```{r lollipop_new_cases, echo=FALSE}
+all_corona %>%
+  filter(observation %in% c("new_cases"),
+         count > 0) %>%
+  group_by(observation) %>%
+  top_n(n = 50, wt = count) %>%
+  ggplot(aes(x=fct_reorder(country, count), y=count)) +
+  geom_point(size=3, colour = "plum") + 
+  geom_segment(aes(x=country, 
+                   xend=country, 
+                   y=0, 
+                   yend=count), colour = "plum", size = 0.75) +
+  # gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+  # if(any(all_corona$country == "Australia")) #gghighlight(country == "Australia", unhighlighted_colour = "gray75")
+  coord_flip() +
+  scale_y_log10(labels = scales::comma) +
+  # facet_wrap(~ obs_ord, scales = "free") +
+  labs(title = "Coronavirus New Cases by Country (top 50)",
+       y = "Count (log scale)", x = NULL,
+       caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        axis.text.y = element_text(size = 8.5, colour = "darkblue"),
+        axis.title = element_text(size = 11), legend.position = "none",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+```
+
+### Active Cases
+
+```{r lollipop_active_cases, echo=FALSE}
+all_corona %>%
+  filter(observation %in% c("active_cases"),
+         count > 0) %>% 
+  group_by(observation) %>%
+  top_n(n = 50, wt = count) %>%
+  ggplot(aes(x=fct_reorder(country, count), y=count)) +
+  geom_point(size=3, colour = "peru") + 
+  geom_segment(aes(x=country, 
+                   xend=country, 
+                   y=0, 
+                   yend=count), colour = "peru", size = 0.75) +
+  gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+  coord_flip() +
+  scale_y_log10(labels = scales::comma) +
+  # facet_wrap(~ obs_ord, scales = "free") +
+  labs(title = "Coronavirus Active Cases by Country (top 50)",
+       y = "Count (log scale)", x = NULL,
+       caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        axis.text.y = element_text(size = 8.5, colour = "darkblue"),
+        axis.title = element_text(size = 11), legend.position = "none",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+```
+
+### Total Recovered
+
+```{r lollipop_recovered_cases, echo=FALSE}
+all_corona %>%
+  filter(observation %in% c("total_recovered"),
+         count > 0) %>%
+  group_by(observation) %>%
+  top_n(n = 50, wt = count) %>%
+  ggplot(aes(x=fct_reorder(country, count), y=count)) +
+  geom_point(size=3, colour = "peru") + 
+  geom_segment(aes(x=country, 
+                   xend=country, 
+                   y=0, 
+                   yend=count), colour = "peru", size = 0.75) +
+  gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+  coord_flip() +
+  scale_y_log10(labels = scales::comma) +
+  # facet_wrap(~ obs_ord, scales = "free") +
+  labs(title = "Coronavirus Recovered Cases by Country (top 50)",
+       y = "Count (log scale)", x = NULL,
+       caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"),
+        axis.text.y = element_text(size = 8.5, colour = "darkblue"),
+        axis.title = element_text(size = 11), legend.position = "none",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+```
+
+### Australian States
+
+```{r oz_states, echo=FALSE}
+
+# Gather Australian geos info.
+get_corona <- GET("https://api.infotorch.org/api/covid19/statlist/?geos=NSW,VIC,QLD,WA,SA,TAS,ACT,NT&stat=confirmed")
+get_text <- content(get_corona, "text")
+get_json <- fromJSON(get_text, flatten = TRUE)
+coronadf <- as_tibble(get_json)
+
+# Drop columns, unest data (list) column, spread, rename & export to csv
+corona_au <- coronadf %>%
+  select(-id, -geo_long) %>% 
+  unnest(data) %>% 
+  group_by(geo, x, y) %>% 
+  select(state = geo,
+         stat,
+         date = x,
+         value = y) %>%
+  ungroup() %>% 
+  mutate(date = as_date(date)) 
+
+# corona_au %>% glimpse()
+
+corona_au %>% 
+  ggplot(aes(date, value, colour = state)) +
+  geom_line(size = 1) +
+  geom_text(data = corona_au %>% filter(date == max(date)),
+            aes(x = date, y = value, label = state, group = state),
+            position = position_dodge(0.9), size = 3, hjust = -0.25) +
+  scale_y_continuous(labels = scales::comma) +
+  scale_x_date(date_breaks = "3 day", date_labels = "%d %b") +
+  scale_colour_brewer(palette = "Dark2") +
+  labs(title = "Coronavirus Confirmed Cases Australian States",
+       y = "Confirmed Cases", x = "", colour = "State",
+       caption = "Source: @GrantChalmers | https://github.com/infotorch/covid19-australia-api") + 
+  theme_light() +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"),
+        axis.title = element_text(size = 11), legend.position = "none",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+
+ggsave("corona_au_states.png", path = "images", width = 8, height = 6)
+
+
+```
+
+
+

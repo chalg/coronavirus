@@ -1,0 +1,1756 @@
+tstamp,country,observation,obs_ord,count
+2020-03-24,China,total_cases,Total Cases,81093
+2020-03-24,China,new_cases,New Cases,39
+2020-03-24,China,total_deaths,Total Deaths,3270
+2020-03-24,China,new_deaths,NA,9
+2020-03-24,China,total_recovered,Total Recovered,72703
+2020-03-24,China,active_cases,Active Cases,5120
+2020-03-24,China,serious_critical,Serious Critical,1749
+2020-03-24,China,tot_cases_1m_pop,Total Cases per 1m Population,56
+2020-03-24,China,death_rate,Death Rate,4.03
+2020-03-24,Italy,total_cases,Total Cases,63927
+2020-03-24,Italy,new_cases,New Cases,4789
+2020-03-24,Italy,total_deaths,Total Deaths,6077
+2020-03-24,Italy,new_deaths,NA,601
+2020-03-24,Italy,total_recovered,Total Recovered,7432
+2020-03-24,Italy,active_cases,Active Cases,50418
+2020-03-24,Italy,serious_critical,Serious Critical,3204
+2020-03-24,Italy,tot_cases_1m_pop,Total Cases per 1m Population,1057
+2020-03-24,Italy,death_rate,Death Rate,9.51
+2020-03-24,United States,total_cases,Total Cases,42032
+2020-03-24,United States,new_cases,New Cases,8486
+2020-03-24,United States,total_deaths,Total Deaths,508
+2020-03-24,United States,new_deaths,NA,89
+2020-03-24,United States,total_recovered,Total Recovered,187
+2020-03-24,United States,active_cases,Active Cases,41337
+2020-03-24,United States,serious_critical,Serious Critical,1040
+2020-03-24,United States,tot_cases_1m_pop,Total Cases per 1m Population,127
+2020-03-24,United States,death_rate,Death Rate,1.21
+2020-03-24,Spain,total_cases,Total Cases,33089
+2020-03-24,Spain,new_cases,New Cases,4321
+2020-03-24,Spain,total_deaths,Total Deaths,2207
+2020-03-24,Spain,new_deaths,NA,435
+2020-03-24,Spain,total_recovered,Total Recovered,3355
+2020-03-24,Spain,active_cases,Active Cases,27527
+2020-03-24,Spain,serious_critical,Serious Critical,2355
+2020-03-24,Spain,tot_cases_1m_pop,Total Cases per 1m Population,708
+2020-03-24,Spain,death_rate,Death Rate,6.67
+2020-03-24,Germany,total_cases,Total Cases,29056
+2020-03-24,Germany,new_cases,New Cases,4183
+2020-03-24,Germany,total_deaths,Total Deaths,118
+2020-03-24,Germany,new_deaths,NA,24
+2020-03-24,Germany,total_recovered,Total Recovered,422
+2020-03-24,Germany,active_cases,Active Cases,28516
+2020-03-24,Germany,serious_critical,Serious Critical,23
+2020-03-24,Germany,tot_cases_1m_pop,Total Cases per 1m Population,347
+2020-03-24,Germany,death_rate,Death Rate,0.41
+2020-03-24,Iran,total_cases,Total Cases,23049
+2020-03-24,Iran,new_cases,New Cases,1411
+2020-03-24,Iran,total_deaths,Total Deaths,1812
+2020-03-24,Iran,new_deaths,NA,127
+2020-03-24,Iran,total_recovered,Total Recovered,8376
+2020-03-24,Iran,active_cases,Active Cases,12861
+2020-03-24,Iran,serious_critical,Serious Critical,NA
+2020-03-24,Iran,tot_cases_1m_pop,Total Cases per 1m Population,274
+2020-03-24,Iran,death_rate,Death Rate,7.86
+2020-03-24,France,total_cases,Total Cases,19856
+2020-03-24,France,new_cases,New Cases,3838
+2020-03-24,France,total_deaths,Total Deaths,860
+2020-03-24,France,new_deaths,NA,186
+2020-03-24,France,total_recovered,Total Recovered,2200
+2020-03-24,France,active_cases,Active Cases,16796
+2020-03-24,France,serious_critical,Serious Critical,2082
+2020-03-24,France,tot_cases_1m_pop,Total Cases per 1m Population,304
+2020-03-24,France,death_rate,Death Rate,4.33
+2020-03-24,South Korea,total_cases,Total Cases,8961
+2020-03-24,South Korea,new_cases,New Cases,64
+2020-03-24,South Korea,total_deaths,Total Deaths,111
+2020-03-24,South Korea,new_deaths,NA,7
+2020-03-24,South Korea,total_recovered,Total Recovered,3166
+2020-03-24,South Korea,active_cases,Active Cases,5684
+2020-03-24,South Korea,serious_critical,Serious Critical,59
+2020-03-24,South Korea,tot_cases_1m_pop,Total Cases per 1m Population,175
+2020-03-24,South Korea,death_rate,Death Rate,1.24
+2020-03-24,Switzerland,total_cases,Total Cases,8547
+2020-03-24,Switzerland,new_cases,New Cases,1073
+2020-03-24,Switzerland,total_deaths,Total Deaths,118
+2020-03-24,Switzerland,new_deaths,NA,20
+2020-03-24,Switzerland,total_recovered,Total Recovered,131
+2020-03-24,Switzerland,active_cases,Active Cases,8298
+2020-03-24,Switzerland,serious_critical,Serious Critical,141
+2020-03-24,Switzerland,tot_cases_1m_pop,Total Cases per 1m Population,988
+2020-03-24,Switzerland,death_rate,Death Rate,1.38
+2020-03-24,UK,total_cases,Total Cases,6650
+2020-03-24,UK,new_cases,New Cases,967
+2020-03-24,UK,total_deaths,Total Deaths,335
+2020-03-24,UK,new_deaths,NA,54
+2020-03-24,UK,total_recovered,Total Recovered,135
+2020-03-24,UK,active_cases,Active Cases,6180
+2020-03-24,UK,serious_critical,Serious Critical,20
+2020-03-24,UK,tot_cases_1m_pop,Total Cases per 1m Population,98
+2020-03-24,UK,death_rate,Death Rate,5.04
+2020-03-24,Netherlands,total_cases,Total Cases,4749
+2020-03-24,Netherlands,new_cases,New Cases,545
+2020-03-24,Netherlands,total_deaths,Total Deaths,213
+2020-03-24,Netherlands,new_deaths,NA,34
+2020-03-24,Netherlands,total_recovered,Total Recovered,2
+2020-03-24,Netherlands,active_cases,Active Cases,4534
+2020-03-24,Netherlands,serious_critical,Serious Critical,435
+2020-03-24,Netherlands,tot_cases_1m_pop,Total Cases per 1m Population,277
+2020-03-24,Netherlands,death_rate,Death Rate,4.49
+2020-03-24,Austria,total_cases,Total Cases,4468
+2020-03-24,Austria,new_cases,New Cases,886
+2020-03-24,Austria,total_deaths,Total Deaths,21
+2020-03-24,Austria,new_deaths,NA,5
+2020-03-24,Austria,total_recovered,Total Recovered,9
+2020-03-24,Austria,active_cases,Active Cases,4438
+2020-03-24,Austria,serious_critical,Serious Critical,14
+2020-03-24,Austria,tot_cases_1m_pop,Total Cases per 1m Population,496
+2020-03-24,Austria,death_rate,Death Rate,0.47
+2020-03-24,Belgium,total_cases,Total Cases,3743
+2020-03-24,Belgium,new_cases,New Cases,342
+2020-03-24,Belgium,total_deaths,Total Deaths,88
+2020-03-24,Belgium,new_deaths,NA,13
+2020-03-24,Belgium,total_recovered,Total Recovered,401
+2020-03-24,Belgium,active_cases,Active Cases,3254
+2020-03-24,Belgium,serious_critical,Serious Critical,322
+2020-03-24,Belgium,tot_cases_1m_pop,Total Cases per 1m Population,323
+2020-03-24,Belgium,death_rate,Death Rate,2.35
+2020-03-24,Norway,total_cases,Total Cases,2547
+2020-03-24,Norway,new_cases,New Cases,162
+2020-03-24,Norway,total_deaths,Total Deaths,10
+2020-03-24,Norway,new_deaths,NA,3
+2020-03-24,Norway,total_recovered,Total Recovered,6
+2020-03-24,Norway,active_cases,Active Cases,2531
+2020-03-24,Norway,serious_critical,Serious Critical,41
+2020-03-24,Norway,tot_cases_1m_pop,Total Cases per 1m Population,470
+2020-03-24,Norway,death_rate,Death Rate,0.39
+2020-03-24,Portugal,total_cases,Total Cases,2060
+2020-03-24,Portugal,new_cases,New Cases,460
+2020-03-24,Portugal,total_deaths,Total Deaths,23
+2020-03-24,Portugal,new_deaths,NA,9
+2020-03-24,Portugal,total_recovered,Total Recovered,14
+2020-03-24,Portugal,active_cases,Active Cases,2023
+2020-03-24,Portugal,serious_critical,Serious Critical,47
+2020-03-24,Portugal,tot_cases_1m_pop,Total Cases per 1m Population,202
+2020-03-24,Portugal,death_rate,Death Rate,1.12
+2020-03-24,Sweden,total_cases,Total Cases,2046
+2020-03-24,Sweden,new_cases,New Cases,112
+2020-03-24,Sweden,total_deaths,Total Deaths,25
+2020-03-24,Sweden,new_deaths,NA,4
+2020-03-24,Sweden,total_recovered,Total Recovered,16
+2020-03-24,Sweden,active_cases,Active Cases,2005
+2020-03-24,Sweden,serious_critical,Serious Critical,104
+2020-03-24,Sweden,tot_cases_1m_pop,Total Cases per 1m Population,203
+2020-03-24,Sweden,death_rate,Death Rate,1.22
+2020-03-24,Canada,total_cases,Total Cases,2035
+2020-03-24,Canada,new_cases,New Cases,565
+2020-03-24,Canada,total_deaths,Total Deaths,23
+2020-03-24,Canada,new_deaths,NA,3
+2020-03-24,Canada,total_recovered,Total Recovered,320
+2020-03-24,Canada,active_cases,Active Cases,1692
+2020-03-24,Canada,serious_critical,Serious Critical,1
+2020-03-24,Canada,tot_cases_1m_pop,Total Cases per 1m Population,54
+2020-03-24,Canada,death_rate,Death Rate,1.13
+2020-03-24,Australia,total_cases,Total Cases,1717
+2020-03-24,Australia,new_cases,New Cases,108
+2020-03-24,Australia,total_deaths,Total Deaths,7
+2020-03-24,Australia,new_deaths,NA,NA
+2020-03-24,Australia,total_recovered,Total Recovered,88
+2020-03-24,Australia,active_cases,Active Cases,1622
+2020-03-24,Australia,serious_critical,Serious Critical,11
+2020-03-24,Australia,tot_cases_1m_pop,Total Cases per 1m Population,67
+2020-03-24,Australia,death_rate,Death Rate,0.41
+2020-03-24,Brazil,total_cases,Total Cases,1629
+2020-03-24,Brazil,new_cases,New Cases,83
+2020-03-24,Brazil,total_deaths,Total Deaths,25
+2020-03-24,Brazil,new_deaths,NA,NA
+2020-03-24,Brazil,total_recovered,Total Recovered,2
+2020-03-24,Brazil,active_cases,Active Cases,1602
+2020-03-24,Brazil,serious_critical,Serious Critical,18
+2020-03-24,Brazil,tot_cases_1m_pop,Total Cases per 1m Population,8
+2020-03-24,Brazil,death_rate,Death Rate,1.53
+2020-03-24,Malaysia,total_cases,Total Cases,1518
+2020-03-24,Malaysia,new_cases,New Cases,212
+2020-03-24,Malaysia,total_deaths,Total Deaths,14
+2020-03-24,Malaysia,new_deaths,NA,4
+2020-03-24,Malaysia,total_recovered,Total Recovered,159
+2020-03-24,Malaysia,active_cases,Active Cases,1345
+2020-03-24,Malaysia,serious_critical,Serious Critical,57
+2020-03-24,Malaysia,tot_cases_1m_pop,Total Cases per 1m Population,47
+2020-03-24,Malaysia,death_rate,Death Rate,0.92
+2020-03-24,Denmark,total_cases,Total Cases,1450
+2020-03-24,Denmark,new_cases,New Cases,55
+2020-03-24,Denmark,total_deaths,Total Deaths,24
+2020-03-24,Denmark,new_deaths,NA,11
+2020-03-24,Denmark,total_recovered,Total Recovered,1
+2020-03-24,Denmark,active_cases,Active Cases,1425
+2020-03-24,Denmark,serious_critical,Serious Critical,55
+2020-03-24,Denmark,tot_cases_1m_pop,Total Cases per 1m Population,250
+2020-03-24,Denmark,death_rate,Death Rate,1.66
+2020-03-24,Israel,total_cases,Total Cases,1442
+2020-03-24,Israel,new_cases,New Cases,371
+2020-03-24,Israel,total_deaths,Total Deaths,1
+2020-03-24,Israel,new_deaths,NA,NA
+2020-03-24,Israel,total_recovered,Total Recovered,41
+2020-03-24,Israel,active_cases,Active Cases,1400
+2020-03-24,Israel,serious_critical,Serious Critical,29
+2020-03-24,Israel,tot_cases_1m_pop,Total Cases per 1m Population,167
+2020-03-24,Israel,death_rate,Death Rate,0.07
+2020-03-24,Turkey,total_cases,Total Cases,1236
+2020-03-24,Turkey,new_cases,New Cases,NA
+2020-03-24,Turkey,total_deaths,Total Deaths,NA
+2020-03-24,Turkey,new_deaths,NA,NA
+2020-03-24,Turkey,total_recovered,Total Recovered,NA
+2020-03-24,Turkey,active_cases,Active Cases,1206
+2020-03-24,Turkey,serious_critical,Serious Critical,NA
+2020-03-24,Turkey,tot_cases_1m_pop,Total Cases per 1m Population,15
+2020-03-24,Turkey,death_rate,Death Rate,NA
+2020-03-24,Czech Republic,total_cases,Total Cases,1236
+2020-03-24,Czech Republic,new_cases,New Cases,116
+2020-03-24,Czech Republic,total_deaths,Total Deaths,1
+2020-03-24,Czech Republic,new_deaths,NA,NA
+2020-03-24,Czech Republic,total_recovered,Total Recovered,6
+2020-03-24,Czech Republic,active_cases,Active Cases,1229
+2020-03-24,Czech Republic,serious_critical,Serious Critical,19
+2020-03-24,Czech Republic,tot_cases_1m_pop,Total Cases per 1m Population,115
+2020-03-24,Czech Republic,death_rate,Death Rate,0.08
+2020-03-24,Japan,total_cases,Total Cases,1128
+2020-03-24,Japan,new_cases,New Cases,27
+2020-03-24,Japan,total_deaths,Total Deaths,42
+2020-03-24,Japan,new_deaths,NA,1
+2020-03-24,Japan,total_recovered,Total Recovered,235
+2020-03-24,Japan,active_cases,Active Cases,851
+2020-03-24,Japan,serious_critical,Serious Critical,49
+2020-03-24,Japan,tot_cases_1m_pop,Total Cases per 1m Population,9
+2020-03-24,Japan,death_rate,Death Rate,3.72
+2020-03-24,Ireland,total_cases,Total Cases,1125
+2020-03-24,Ireland,new_cases,New Cases,219
+2020-03-24,Ireland,total_deaths,Total Deaths,6
+2020-03-24,Ireland,new_deaths,NA,2
+2020-03-24,Ireland,total_recovered,Total Recovered,5
+2020-03-24,Ireland,active_cases,Active Cases,1114
+2020-03-24,Ireland,serious_critical,Serious Critical,29
+2020-03-24,Ireland,tot_cases_1m_pop,Total Cases per 1m Population,228
+2020-03-24,Ireland,death_rate,Death Rate,0.53
+2020-03-24,Ecuador,total_cases,Total Cases,981
+2020-03-24,Ecuador,new_cases,New Cases,192
+2020-03-24,Ecuador,total_deaths,Total Deaths,18
+2020-03-24,Ecuador,new_deaths,NA,4
+2020-03-24,Ecuador,total_recovered,Total Recovered,3
+2020-03-24,Ecuador,active_cases,Active Cases,960
+2020-03-24,Ecuador,serious_critical,Serious Critical,2
+2020-03-24,Ecuador,tot_cases_1m_pop,Total Cases per 1m Population,56
+2020-03-24,Ecuador,death_rate,Death Rate,1.83
+2020-03-24,Luxembourg,total_cases,Total Cases,875
+2020-03-24,Luxembourg,new_cases,New Cases,77
+2020-03-24,Luxembourg,total_deaths,Total Deaths,8
+2020-03-24,Luxembourg,new_deaths,NA,NA
+2020-03-24,Luxembourg,total_recovered,Total Recovered,6
+2020-03-24,Luxembourg,active_cases,Active Cases,861
+2020-03-24,Luxembourg,serious_critical,Serious Critical,3
+2020-03-24,Luxembourg,tot_cases_1m_pop,Total Cases per 1m Population,1398
+2020-03-24,Luxembourg,death_rate,Death Rate,0.91
+2020-03-24,Pakistan,total_cases,Total Cases,873
+2020-03-24,Pakistan,new_cases,New Cases,97
+2020-03-24,Pakistan,total_deaths,Total Deaths,6
+2020-03-24,Pakistan,new_deaths,NA,1
+2020-03-24,Pakistan,total_recovered,Total Recovered,13
+2020-03-24,Pakistan,active_cases,Active Cases,854
+2020-03-24,Pakistan,serious_critical,Serious Critical,NA
+2020-03-24,Pakistan,tot_cases_1m_pop,Total Cases per 1m Population,4
+2020-03-24,Pakistan,death_rate,Death Rate,0.69
+2020-03-24,Poland,total_cases,Total Cases,749
+2020-03-24,Poland,new_cases,New Cases,115
+2020-03-24,Poland,total_deaths,Total Deaths,8
+2020-03-24,Poland,new_deaths,NA,1
+2020-03-24,Poland,total_recovered,Total Recovered,13
+2020-03-24,Poland,active_cases,Active Cases,728
+2020-03-24,Poland,serious_critical,Serious Critical,3
+2020-03-24,Poland,tot_cases_1m_pop,Total Cases per 1m Population,20
+2020-03-24,Poland,death_rate,Death Rate,1.07
+2020-03-24,Chile,total_cases,Total Cases,746
+2020-03-24,Chile,new_cases,New Cases,114
+2020-03-24,Chile,total_deaths,Total Deaths,2
+2020-03-24,Chile,new_deaths,NA,1
+2020-03-24,Chile,total_recovered,Total Recovered,11
+2020-03-24,Chile,active_cases,Active Cases,733
+2020-03-24,Chile,serious_critical,Serious Critical,7
+2020-03-24,Chile,tot_cases_1m_pop,Total Cases per 1m Population,39
+2020-03-24,Chile,death_rate,Death Rate,0.27
+2020-03-24,Thailand,total_cases,Total Cases,721
+2020-03-24,Thailand,new_cases,New Cases,122
+2020-03-24,Thailand,total_deaths,Total Deaths,1
+2020-03-24,Thailand,new_deaths,NA,NA
+2020-03-24,Thailand,total_recovered,Total Recovered,52
+2020-03-24,Thailand,active_cases,Active Cases,668
+2020-03-24,Thailand,serious_critical,Serious Critical,7
+2020-03-24,Thailand,tot_cases_1m_pop,Total Cases per 1m Population,10
+2020-03-24,Thailand,death_rate,Death Rate,0.14
+2020-03-24,Finland,total_cases,Total Cases,700
+2020-03-24,Finland,new_cases,New Cases,74
+2020-03-24,Finland,total_deaths,Total Deaths,1
+2020-03-24,Finland,new_deaths,NA,NA
+2020-03-24,Finland,total_recovered,Total Recovered,10
+2020-03-24,Finland,active_cases,Active Cases,689
+2020-03-24,Finland,serious_critical,Serious Critical,13
+2020-03-24,Finland,tot_cases_1m_pop,Total Cases per 1m Population,126
+2020-03-24,Finland,death_rate,Death Rate,0.14
+2020-03-24,Greece,total_cases,Total Cases,695
+2020-03-24,Greece,new_cases,New Cases,71
+2020-03-24,Greece,total_deaths,Total Deaths,17
+2020-03-24,Greece,new_deaths,NA,2
+2020-03-24,Greece,total_recovered,Total Recovered,29
+2020-03-24,Greece,active_cases,Active Cases,649
+2020-03-24,Greece,serious_critical,Serious Critical,35
+2020-03-24,Greece,tot_cases_1m_pop,Total Cases per 1m Population,67
+2020-03-24,Greece,death_rate,Death Rate,2.45
+2020-03-24,Iceland,total_cases,Total Cases,588
+2020-03-24,Iceland,new_cases,New Cases,20
+2020-03-24,Iceland,total_deaths,Total Deaths,1
+2020-03-24,Iceland,new_deaths,NA,NA
+2020-03-24,Iceland,total_recovered,Total Recovered,51
+2020-03-24,Iceland,active_cases,Active Cases,536
+2020-03-24,Iceland,serious_critical,Serious Critical,14
+2020-03-24,Iceland,tot_cases_1m_pop,Total Cases per 1m Population,1723
+2020-03-24,Iceland,death_rate,Death Rate,0.17
+2020-03-24,Indonesia,total_cases,Total Cases,579
+2020-03-24,Indonesia,new_cases,New Cases,65
+2020-03-24,Indonesia,total_deaths,Total Deaths,49
+2020-03-24,Indonesia,new_deaths,NA,1
+2020-03-24,Indonesia,total_recovered,Total Recovered,30
+2020-03-24,Indonesia,active_cases,Active Cases,500
+2020-03-24,Indonesia,serious_critical,Serious Critical,NA
+2020-03-24,Indonesia,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Indonesia,death_rate,Death Rate,8.46
+2020-03-24,Romania,total_cases,Total Cases,576
+2020-03-24,Romania,new_cases,New Cases,143
+2020-03-24,Romania,total_deaths,Total Deaths,7
+2020-03-24,Romania,new_deaths,NA,4
+2020-03-24,Romania,total_recovered,Total Recovered,73
+2020-03-24,Romania,active_cases,Active Cases,496
+2020-03-24,Romania,serious_critical,Serious Critical,15
+2020-03-24,Romania,tot_cases_1m_pop,Total Cases per 1m Population,30
+2020-03-24,Romania,death_rate,Death Rate,1.22
+2020-03-24,Saudi Arabia,total_cases,Total Cases,562
+2020-03-24,Saudi Arabia,new_cases,New Cases,51
+2020-03-24,Saudi Arabia,total_deaths,Total Deaths,0
+2020-03-24,Saudi Arabia,new_deaths,NA,NA
+2020-03-24,Saudi Arabia,total_recovered,Total Recovered,19
+2020-03-24,Saudi Arabia,active_cases,Active Cases,543
+2020-03-24,Saudi Arabia,serious_critical,Serious Critical,NA
+2020-03-24,Saudi Arabia,tot_cases_1m_pop,Total Cases per 1m Population,16
+2020-03-24,Saudi Arabia,death_rate,Death Rate,0
+2020-03-24,Singapore,total_cases,Total Cases,509
+2020-03-24,Singapore,new_cases,New Cases,54
+2020-03-24,Singapore,total_deaths,Total Deaths,2
+2020-03-24,Singapore,new_deaths,NA,NA
+2020-03-24,Singapore,total_recovered,Total Recovered,152
+2020-03-24,Singapore,active_cases,Active Cases,355
+2020-03-24,Singapore,serious_critical,Serious Critical,14
+2020-03-24,Singapore,tot_cases_1m_pop,Total Cases per 1m Population,87
+2020-03-24,Singapore,death_rate,Death Rate,0.39
+2020-03-24,Qatar,total_cases,Total Cases,501
+2020-03-24,Qatar,new_cases,New Cases,7
+2020-03-24,Qatar,total_deaths,Total Deaths,0
+2020-03-24,Qatar,new_deaths,NA,NA
+2020-03-24,Qatar,total_recovered,Total Recovered,33
+2020-03-24,Qatar,active_cases,Active Cases,468
+2020-03-24,Qatar,serious_critical,Serious Critical,6
+2020-03-24,Qatar,tot_cases_1m_pop,Total Cases per 1m Population,174
+2020-03-24,Qatar,death_rate,Death Rate,0
+2020-03-24,India,total_cases,Total Cases,499
+2020-03-24,India,new_cases,New Cases,103
+2020-03-24,India,total_deaths,Total Deaths,10
+2020-03-24,India,new_deaths,NA,3
+2020-03-24,India,total_recovered,Total Recovered,34
+2020-03-24,India,active_cases,Active Cases,455
+2020-03-24,India,serious_critical,Serious Critical,NA
+2020-03-24,India,tot_cases_1m_pop,Total Cases per 1m Population,0.4
+2020-03-24,India,death_rate,Death Rate,2
+2020-03-24,Philippines,total_cases,Total Cases,462
+2020-03-24,Philippines,new_cases,New Cases,82
+2020-03-24,Philippines,total_deaths,Total Deaths,33
+2020-03-24,Philippines,new_deaths,NA,8
+2020-03-24,Philippines,total_recovered,Total Recovered,18
+2020-03-24,Philippines,active_cases,Active Cases,411
+2020-03-24,Philippines,serious_critical,Serious Critical,1
+2020-03-24,Philippines,tot_cases_1m_pop,Total Cases per 1m Population,4
+2020-03-24,Philippines,death_rate,Death Rate,7.14
+2020-03-24,Slovenia,total_cases,Total Cases,442
+2020-03-24,Slovenia,new_cases,New Cases,28
+2020-03-24,Slovenia,total_deaths,Total Deaths,NA
+2020-03-24,Slovenia,new_deaths,NA,1
+2020-03-24,Slovenia,total_recovered,Total Recovered,NA
+2020-03-24,Slovenia,active_cases,Active Cases,439
+2020-03-24,Slovenia,serious_critical,Serious Critical,12
+2020-03-24,Slovenia,tot_cases_1m_pop,Total Cases per 1m Population,213
+2020-03-24,Slovenia,death_rate,Death Rate,NA
+2020-03-24,Russia,total_cases,Total Cases,438
+2020-03-24,Russia,new_cases,New Cases,71
+2020-03-24,Russia,total_deaths,Total Deaths,1
+2020-03-24,Russia,new_deaths,NA,NA
+2020-03-24,Russia,total_recovered,Total Recovered,17
+2020-03-24,Russia,active_cases,Active Cases,420
+2020-03-24,Russia,serious_critical,Serious Critical,NA
+2020-03-24,Russia,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Russia,death_rate,Death Rate,0.23
+2020-03-24,South Africa,total_cases,Total Cases,402
+2020-03-24,South Africa,new_cases,New Cases,128
+2020-03-24,South Africa,total_deaths,Total Deaths,0
+2020-03-24,South Africa,new_deaths,NA,NA
+2020-03-24,South Africa,total_recovered,Total Recovered,4
+2020-03-24,South Africa,active_cases,Active Cases,398
+2020-03-24,South Africa,serious_critical,Serious Critical,NA
+2020-03-24,South Africa,tot_cases_1m_pop,Total Cases per 1m Population,7
+2020-03-24,South Africa,death_rate,Death Rate,0
+2020-03-24,Peru,total_cases,Total Cases,395
+2020-03-24,Peru,new_cases,New Cases,32
+2020-03-24,Peru,total_deaths,Total Deaths,5
+2020-03-24,Peru,new_deaths,NA,NA
+2020-03-24,Peru,total_recovered,Total Recovered,1
+2020-03-24,Peru,active_cases,Active Cases,389
+2020-03-24,Peru,serious_critical,Serious Critical,19
+2020-03-24,Peru,tot_cases_1m_pop,Total Cases per 1m Population,12
+2020-03-24,Peru,death_rate,Death Rate,1.27
+2020-03-24,Bahrain,total_cases,Total Cases,377
+2020-03-24,Bahrain,new_cases,New Cases,43
+2020-03-24,Bahrain,total_deaths,Total Deaths,2
+2020-03-24,Bahrain,new_deaths,NA,NA
+2020-03-24,Bahrain,total_recovered,Total Recovered,164
+2020-03-24,Bahrain,active_cases,Active Cases,211
+2020-03-24,Bahrain,serious_critical,Serious Critical,3
+2020-03-24,Bahrain,tot_cases_1m_pop,Total Cases per 1m Population,222
+2020-03-24,Bahrain,death_rate,Death Rate,0.53
+2020-03-24,Hong Kong,total_cases,Total Cases,356
+2020-03-24,Hong Kong,new_cases,New Cases,38
+2020-03-24,Hong Kong,total_deaths,Total Deaths,4
+2020-03-24,Hong Kong,new_deaths,NA,NA
+2020-03-24,Hong Kong,total_recovered,Total Recovered,100
+2020-03-24,Hong Kong,active_cases,Active Cases,252
+2020-03-24,Hong Kong,serious_critical,Serious Critical,4
+2020-03-24,Hong Kong,tot_cases_1m_pop,Total Cases per 1m Population,47
+2020-03-24,Hong Kong,death_rate,Death Rate,1.12
+2020-03-24,Estonia,total_cases,Total Cases,352
+2020-03-24,Estonia,new_cases,New Cases,26
+2020-03-24,Estonia,total_deaths,Total Deaths,0
+2020-03-24,Estonia,new_deaths,NA,NA
+2020-03-24,Estonia,total_recovered,Total Recovered,4
+2020-03-24,Estonia,active_cases,Active Cases,348
+2020-03-24,Estonia,serious_critical,Serious Critical,4
+2020-03-24,Estonia,tot_cases_1m_pop,Total Cases per 1m Population,265
+2020-03-24,Estonia,death_rate,Death Rate,0
+2020-03-24,Egypt,total_cases,Total Cases,327
+2020-03-24,Egypt,new_cases,New Cases,NA
+2020-03-24,Egypt,total_deaths,Total Deaths,14
+2020-03-24,Egypt,new_deaths,NA,NA
+2020-03-24,Egypt,total_recovered,Total Recovered,56
+2020-03-24,Egypt,active_cases,Active Cases,257
+2020-03-24,Egypt,serious_critical,Serious Critical,NA
+2020-03-24,Egypt,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Egypt,death_rate,Death Rate,4.28
+2020-03-24,Mexico,total_cases,Total Cases,316
+2020-03-24,Mexico,new_cases,New Cases,65
+2020-03-24,Mexico,total_deaths,Total Deaths,2
+2020-03-24,Mexico,new_deaths,NA,NA
+2020-03-24,Mexico,total_recovered,Total Recovered,4
+2020-03-24,Mexico,active_cases,Active Cases,310
+2020-03-24,Mexico,serious_critical,Serious Critical,1
+2020-03-24,Mexico,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Mexico,death_rate,Death Rate,0.63
+2020-03-24,Croatia,total_cases,Total Cases,315
+2020-03-24,Croatia,new_cases,New Cases,61
+2020-03-24,Croatia,total_deaths,Total Deaths,1
+2020-03-24,Croatia,new_deaths,NA,NA
+2020-03-24,Croatia,total_recovered,Total Recovered,5
+2020-03-24,Croatia,active_cases,Active Cases,309
+2020-03-24,Croatia,serious_critical,Serious Critical,5
+2020-03-24,Croatia,tot_cases_1m_pop,Total Cases per 1m Population,77
+2020-03-24,Croatia,death_rate,Death Rate,0.32
+2020-03-24,Panama,total_cases,Total Cases,313
+2020-03-24,Panama,new_cases,New Cases,NA
+2020-03-24,Panama,total_deaths,Total Deaths,3
+2020-03-24,Panama,new_deaths,NA,NA
+2020-03-24,Panama,total_recovered,Total Recovered,1
+2020-03-24,Panama,active_cases,Active Cases,309
+2020-03-24,Panama,serious_critical,Serious Critical,7
+2020-03-24,Panama,tot_cases_1m_pop,Total Cases per 1m Population,73
+2020-03-24,Panama,death_rate,Death Rate,0.96
+2020-03-24,Colombia,total_cases,Total Cases,277
+2020-03-24,Colombia,new_cases,New Cases,46
+2020-03-24,Colombia,total_deaths,Total Deaths,3
+2020-03-24,Colombia,new_deaths,NA,1
+2020-03-24,Colombia,total_recovered,Total Recovered,3
+2020-03-24,Colombia,active_cases,Active Cases,271
+2020-03-24,Colombia,serious_critical,Serious Critical,NA
+2020-03-24,Colombia,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Colombia,death_rate,Death Rate,1.08
+2020-03-24,Lebanon,total_cases,Total Cases,267
+2020-03-24,Lebanon,new_cases,New Cases,19
+2020-03-24,Lebanon,total_deaths,Total Deaths,4
+2020-03-24,Lebanon,new_deaths,NA,NA
+2020-03-24,Lebanon,total_recovered,Total Recovered,8
+2020-03-24,Lebanon,active_cases,Active Cases,255
+2020-03-24,Lebanon,serious_critical,Serious Critical,4
+2020-03-24,Lebanon,tot_cases_1m_pop,Total Cases per 1m Population,39
+2020-03-24,Lebanon,death_rate,Death Rate,1.5
+2020-03-24,Iraq,total_cases,Total Cases,266
+2020-03-24,Iraq,new_cases,New Cases,33
+2020-03-24,Iraq,total_deaths,Total Deaths,23
+2020-03-24,Iraq,new_deaths,NA,3
+2020-03-24,Iraq,total_recovered,Total Recovered,62
+2020-03-24,Iraq,active_cases,Active Cases,181
+2020-03-24,Iraq,serious_critical,Serious Critical,NA
+2020-03-24,Iraq,tot_cases_1m_pop,Total Cases per 1m Population,7
+2020-03-24,Iraq,death_rate,Death Rate,8.65
+2020-03-24,Argentina,total_cases,Total Cases,266
+2020-03-24,Argentina,new_cases,New Cases,NA
+2020-03-24,Argentina,total_deaths,Total Deaths,4
+2020-03-24,Argentina,new_deaths,NA,NA
+2020-03-24,Argentina,total_recovered,Total Recovered,27
+2020-03-24,Argentina,active_cases,Active Cases,235
+2020-03-24,Argentina,serious_critical,Serious Critical,NA
+2020-03-24,Argentina,tot_cases_1m_pop,Total Cases per 1m Population,6
+2020-03-24,Argentina,death_rate,Death Rate,1.5
+2020-03-24,Serbia,total_cases,Total Cases,249
+2020-03-24,Serbia,new_cases,New Cases,27
+2020-03-24,Serbia,total_deaths,Total Deaths,2
+2020-03-24,Serbia,new_deaths,NA,NA
+2020-03-24,Serbia,total_recovered,Total Recovered,3
+2020-03-24,Serbia,active_cases,Active Cases,244
+2020-03-24,Serbia,serious_critical,Serious Critical,12
+2020-03-24,Serbia,tot_cases_1m_pop,Total Cases per 1m Population,28
+2020-03-24,Serbia,death_rate,Death Rate,0.8
+2020-03-24,Dominican Republic,total_cases,Total Cases,245
+2020-03-24,Dominican Republic,new_cases,New Cases,43
+2020-03-24,Dominican Republic,total_deaths,Total Deaths,NA
+2020-03-24,Dominican Republic,new_deaths,NA,NA
+2020-03-24,Dominican Republic,total_recovered,Total Recovered,NA
+2020-03-24,Dominican Republic,active_cases,Active Cases,242
+2020-03-24,Dominican Republic,serious_critical,Serious Critical,NA
+2020-03-24,Dominican Republic,tot_cases_1m_pop,Total Cases per 1m Population,23
+2020-03-24,Dominican Republic,death_rate,Death Rate,NA
+2020-03-24,Algeria,total_cases,Total Cases,230
+2020-03-24,Algeria,new_cases,New Cases,29
+2020-03-24,Algeria,total_deaths,Total Deaths,17
+2020-03-24,Algeria,new_deaths,NA,NA
+2020-03-24,Algeria,total_recovered,Total Recovered,65
+2020-03-24,Algeria,active_cases,Active Cases,148
+2020-03-24,Algeria,serious_critical,Serious Critical,NA
+2020-03-24,Algeria,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Algeria,death_rate,Death Rate,7.39
+2020-03-24,Bulgaria,total_cases,Total Cases,201
+2020-03-24,Bulgaria,new_cases,New Cases,14
+2020-03-24,Bulgaria,total_deaths,Total Deaths,3
+2020-03-24,Bulgaria,new_deaths,NA,NA
+2020-03-24,Bulgaria,total_recovered,Total Recovered,3
+2020-03-24,Bulgaria,active_cases,Active Cases,195
+2020-03-24,Bulgaria,serious_critical,Serious Critical,8
+2020-03-24,Bulgaria,tot_cases_1m_pop,Total Cases per 1m Population,29
+2020-03-24,Bulgaria,death_rate,Death Rate,1.49
+2020-03-24,UAE,total_cases,Total Cases,198
+2020-03-24,UAE,new_cases,New Cases,45
+2020-03-24,UAE,total_deaths,Total Deaths,2
+2020-03-24,UAE,new_deaths,NA,NA
+2020-03-24,UAE,total_recovered,Total Recovered,41
+2020-03-24,UAE,active_cases,Active Cases,155
+2020-03-24,UAE,serious_critical,Serious Critical,2
+2020-03-24,UAE,tot_cases_1m_pop,Total Cases per 1m Population,20
+2020-03-24,UAE,death_rate,Death Rate,1.01
+2020-03-24,Taiwan,total_cases,Total Cases,195
+2020-03-24,Taiwan,new_cases,New Cases,26
+2020-03-24,Taiwan,total_deaths,Total Deaths,2
+2020-03-24,Taiwan,new_deaths,NA,NA
+2020-03-24,Taiwan,total_recovered,Total Recovered,28
+2020-03-24,Taiwan,active_cases,Active Cases,165
+2020-03-24,Taiwan,serious_critical,Serious Critical,NA
+2020-03-24,Taiwan,tot_cases_1m_pop,Total Cases per 1m Population,8
+2020-03-24,Taiwan,death_rate,Death Rate,1.03
+2020-03-24,Armenia,total_cases,Total Cases,194
+2020-03-24,Armenia,new_cases,New Cases,NA
+2020-03-24,Armenia,total_deaths,Total Deaths,0
+2020-03-24,Armenia,new_deaths,NA,NA
+2020-03-24,Armenia,total_recovered,Total Recovered,2
+2020-03-24,Armenia,active_cases,Active Cases,192
+2020-03-24,Armenia,serious_critical,Serious Critical,6
+2020-03-24,Armenia,tot_cases_1m_pop,Total Cases per 1m Population,65
+2020-03-24,Armenia,death_rate,Death Rate,0
+2020-03-24,Kuwait,total_cases,Total Cases,189
+2020-03-24,Kuwait,new_cases,New Cases,1
+2020-03-24,Kuwait,total_deaths,Total Deaths,0
+2020-03-24,Kuwait,new_deaths,NA,NA
+2020-03-24,Kuwait,total_recovered,Total Recovered,30
+2020-03-24,Kuwait,active_cases,Active Cases,159
+2020-03-24,Kuwait,serious_critical,Serious Critical,5
+2020-03-24,Kuwait,tot_cases_1m_pop,Total Cases per 1m Population,44
+2020-03-24,Kuwait,death_rate,Death Rate,0
+2020-03-24,San Marino,total_cases,Total Cases,187
+2020-03-24,San Marino,new_cases,New Cases,12
+2020-03-24,San Marino,total_deaths,Total Deaths,20
+2020-03-24,San Marino,new_deaths,NA,NA
+2020-03-24,San Marino,total_recovered,Total Recovered,4
+2020-03-24,San Marino,active_cases,Active Cases,163
+2020-03-24,San Marino,serious_critical,Serious Critical,13
+2020-03-24,San Marino,tot_cases_1m_pop,Total Cases per 1m Population,5511
+2020-03-24,San Marino,death_rate,Death Rate,10.7
+2020-03-24,Slovakia,total_cases,Total Cases,186
+2020-03-24,Slovakia,new_cases,New Cases,1
+2020-03-24,Slovakia,total_deaths,Total Deaths,0
+2020-03-24,Slovakia,new_deaths,NA,NA
+2020-03-24,Slovakia,total_recovered,Total Recovered,7
+2020-03-24,Slovakia,active_cases,Active Cases,179
+2020-03-24,Slovakia,serious_critical,Serious Critical,2
+2020-03-24,Slovakia,tot_cases_1m_pop,Total Cases per 1m Population,34
+2020-03-24,Slovakia,death_rate,Death Rate,0
+2020-03-24,Latvia,total_cases,Total Cases,180
+2020-03-24,Latvia,new_cases,New Cases,41
+2020-03-24,Latvia,total_deaths,Total Deaths,0
+2020-03-24,Latvia,new_deaths,NA,NA
+2020-03-24,Latvia,total_recovered,Total Recovered,1
+2020-03-24,Latvia,active_cases,Active Cases,179
+2020-03-24,Latvia,serious_critical,Serious Critical,NA
+2020-03-24,Latvia,tot_cases_1m_pop,Total Cases per 1m Population,95
+2020-03-24,Latvia,death_rate,Death Rate,0
+2020-03-24,Hungary,total_cases,Total Cases,167
+2020-03-24,Hungary,new_cases,New Cases,36
+2020-03-24,Hungary,total_deaths,Total Deaths,7
+2020-03-24,Hungary,new_deaths,NA,1
+2020-03-24,Hungary,total_recovered,Total Recovered,16
+2020-03-24,Hungary,active_cases,Active Cases,144
+2020-03-24,Hungary,serious_critical,Serious Critical,6
+2020-03-24,Hungary,tot_cases_1m_pop,Total Cases per 1m Population,17
+2020-03-24,Hungary,death_rate,Death Rate,4.19
+2020-03-24,Lithuania,total_cases,Total Cases,160
+2020-03-24,Lithuania,new_cases,New Cases,17
+2020-03-24,Lithuania,total_deaths,Total Deaths,1
+2020-03-24,Lithuania,new_deaths,NA,NA
+2020-03-24,Lithuania,total_recovered,Total Recovered,1
+2020-03-24,Lithuania,active_cases,Active Cases,158
+2020-03-24,Lithuania,serious_critical,Serious Critical,1
+2020-03-24,Lithuania,tot_cases_1m_pop,Total Cases per 1m Population,59
+2020-03-24,Lithuania,death_rate,Death Rate,0.62
+2020-03-24,Costa Rica,total_cases,Total Cases,158
+2020-03-24,Costa Rica,new_cases,New Cases,24
+2020-03-24,Costa Rica,total_deaths,Total Deaths,2
+2020-03-24,Costa Rica,new_deaths,NA,NA
+2020-03-24,Costa Rica,total_recovered,Total Recovered,2
+2020-03-24,Costa Rica,active_cases,Active Cases,154
+2020-03-24,Costa Rica,serious_critical,Serious Critical,2
+2020-03-24,Costa Rica,tot_cases_1m_pop,Total Cases per 1m Population,31
+2020-03-24,Costa Rica,death_rate,Death Rate,1.27
+2020-03-24,Uruguay,total_cases,Total Cases,158
+2020-03-24,Uruguay,new_cases,New Cases,NA
+2020-03-24,Uruguay,total_deaths,Total Deaths,NA
+2020-03-24,Uruguay,new_deaths,NA,NA
+2020-03-24,Uruguay,total_recovered,Total Recovered,NA
+2020-03-24,Uruguay,active_cases,Active Cases,158
+2020-03-24,Uruguay,serious_critical,Serious Critical,2
+2020-03-24,Uruguay,tot_cases_1m_pop,Total Cases per 1m Population,45
+2020-03-24,Uruguay,death_rate,Death Rate,NA
+2020-03-24,Morocco,total_cases,Total Cases,143
+2020-03-24,Morocco,new_cases,New Cases,28
+2020-03-24,Morocco,total_deaths,Total Deaths,4
+2020-03-24,Morocco,new_deaths,NA,NA
+2020-03-24,Morocco,total_recovered,Total Recovered,5
+2020-03-24,Morocco,active_cases,Active Cases,134
+2020-03-24,Morocco,serious_critical,Serious Critical,1
+2020-03-24,Morocco,tot_cases_1m_pop,Total Cases per 1m Population,4
+2020-03-24,Morocco,death_rate,Death Rate,2.8
+2020-03-24,North Macedonia,total_cases,Total Cases,136
+2020-03-24,North Macedonia,new_cases,New Cases,21
+2020-03-24,North Macedonia,total_deaths,Total Deaths,2
+2020-03-24,North Macedonia,new_deaths,NA,1
+2020-03-24,North Macedonia,total_recovered,Total Recovered,1
+2020-03-24,North Macedonia,active_cases,Active Cases,133
+2020-03-24,North Macedonia,serious_critical,Serious Critical,1
+2020-03-24,North Macedonia,tot_cases_1m_pop,Total Cases per 1m Population,65
+2020-03-24,North Macedonia,death_rate,Death Rate,1.47
+2020-03-24,Andorra,total_cases,Total Cases,133
+2020-03-24,Andorra,new_cases,New Cases,20
+2020-03-24,Andorra,total_deaths,Total Deaths,1
+2020-03-24,Andorra,new_deaths,NA,NA
+2020-03-24,Andorra,total_recovered,Total Recovered,1
+2020-03-24,Andorra,active_cases,Active Cases,131
+2020-03-24,Andorra,serious_critical,Serious Critical,2
+2020-03-24,Andorra,tot_cases_1m_pop,Total Cases per 1m Population,1721
+2020-03-24,Andorra,death_rate,Death Rate,0.75
+2020-03-24,Bosnia and Herzegovina,total_cases,Total Cases,131
+2020-03-24,Bosnia and Herzegovina,new_cases,New Cases,5
+2020-03-24,Bosnia and Herzegovina,total_deaths,Total Deaths,1
+2020-03-24,Bosnia and Herzegovina,new_deaths,NA,NA
+2020-03-24,Bosnia and Herzegovina,total_recovered,Total Recovered,2
+2020-03-24,Bosnia and Herzegovina,active_cases,Active Cases,128
+2020-03-24,Bosnia and Herzegovina,serious_critical,Serious Critical,1
+2020-03-24,Bosnia and Herzegovina,tot_cases_1m_pop,Total Cases per 1m Population,40
+2020-03-24,Bosnia and Herzegovina,death_rate,Death Rate,0.76
+2020-03-24,Jordan,total_cases,Total Cases,127
+2020-03-24,Jordan,new_cases,New Cases,15
+2020-03-24,Jordan,total_deaths,Total Deaths,0
+2020-03-24,Jordan,new_deaths,NA,NA
+2020-03-24,Jordan,total_recovered,Total Recovered,1
+2020-03-24,Jordan,active_cases,Active Cases,126
+2020-03-24,Jordan,serious_critical,Serious Critical,NA
+2020-03-24,Jordan,tot_cases_1m_pop,Total Cases per 1m Population,12
+2020-03-24,Jordan,death_rate,Death Rate,0
+2020-03-24,Vietnam,total_cases,Total Cases,123
+2020-03-24,Vietnam,new_cases,New Cases,10
+2020-03-24,Vietnam,total_deaths,Total Deaths,0
+2020-03-24,Vietnam,new_deaths,NA,NA
+2020-03-24,Vietnam,total_recovered,Total Recovered,17
+2020-03-24,Vietnam,active_cases,Active Cases,106
+2020-03-24,Vietnam,serious_critical,Serious Critical,2
+2020-03-24,Vietnam,tot_cases_1m_pop,Total Cases per 1m Population,1
+2020-03-24,Vietnam,death_rate,Death Rate,0
+2020-03-24,Faeroe Islands,total_cases,Total Cases,118
+2020-03-24,Faeroe Islands,new_cases,New Cases,3
+2020-03-24,Faeroe Islands,total_deaths,Total Deaths,0
+2020-03-24,Faeroe Islands,new_deaths,NA,NA
+2020-03-24,Faeroe Islands,total_recovered,Total Recovered,23
+2020-03-24,Faeroe Islands,active_cases,Active Cases,95
+2020-03-24,Faeroe Islands,serious_critical,Serious Critical,NA
+2020-03-24,Faeroe Islands,tot_cases_1m_pop,Total Cases per 1m Population,2415
+2020-03-24,Faeroe Islands,death_rate,Death Rate,0
+2020-03-24,Cyprus,total_cases,Total Cases,116
+2020-03-24,Cyprus,new_cases,New Cases,21
+2020-03-24,Cyprus,total_deaths,Total Deaths,1
+2020-03-24,Cyprus,new_deaths,NA,NA
+2020-03-24,Cyprus,total_recovered,Total Recovered,3
+2020-03-24,Cyprus,active_cases,Active Cases,112
+2020-03-24,Cyprus,serious_critical,Serious Critical,3
+2020-03-24,Cyprus,tot_cases_1m_pop,Total Cases per 1m Population,96
+2020-03-24,Cyprus,death_rate,Death Rate,0.86
+2020-03-24,Moldova,total_cases,Total Cases,109
+2020-03-24,Moldova,new_cases,New Cases,15
+2020-03-24,Moldova,total_deaths,Total Deaths,1
+2020-03-24,Moldova,new_deaths,NA,NA
+2020-03-24,Moldova,total_recovered,Total Recovered,2
+2020-03-24,Moldova,active_cases,Active Cases,106
+2020-03-24,Moldova,serious_critical,Serious Critical,3
+2020-03-24,Moldova,tot_cases_1m_pop,Total Cases per 1m Population,27
+2020-03-24,Moldova,death_rate,Death Rate,0.92
+2020-03-24,Malta,total_cases,Total Cases,107
+2020-03-24,Malta,new_cases,New Cases,17
+2020-03-24,Malta,total_deaths,Total Deaths,0
+2020-03-24,Malta,new_deaths,NA,NA
+2020-03-24,Malta,total_recovered,Total Recovered,2
+2020-03-24,Malta,active_cases,Active Cases,105
+2020-03-24,Malta,serious_critical,Serious Critical,1
+2020-03-24,Malta,tot_cases_1m_pop,Total Cases per 1m Population,242
+2020-03-24,Malta,death_rate,Death Rate,0
+2020-03-24,Albania,total_cases,Total Cases,104
+2020-03-24,Albania,new_cases,New Cases,15
+2020-03-24,Albania,total_deaths,Total Deaths,4
+2020-03-24,Albania,new_deaths,NA,2
+2020-03-24,Albania,total_recovered,Total Recovered,2
+2020-03-24,Albania,active_cases,Active Cases,98
+2020-03-24,Albania,serious_critical,Serious Critical,2
+2020-03-24,Albania,tot_cases_1m_pop,Total Cases per 1m Population,36
+2020-03-24,Albania,death_rate,Death Rate,3.85
+2020-03-24,New Zealand,total_cases,Total Cases,102
+2020-03-24,New Zealand,new_cases,New Cases,NA
+2020-03-24,New Zealand,total_deaths,Total Deaths,NA
+2020-03-24,New Zealand,new_deaths,NA,NA
+2020-03-24,New Zealand,total_recovered,Total Recovered,NA
+2020-03-24,New Zealand,active_cases,Active Cases,102
+2020-03-24,New Zealand,serious_critical,Serious Critical,NA
+2020-03-24,New Zealand,tot_cases_1m_pop,Total Cases per 1m Population,21
+2020-03-24,New Zealand,death_rate,Death Rate,NA
+2020-03-24,Burkina Faso,total_cases,Total Cases,99
+2020-03-24,Burkina Faso,new_cases,New Cases,24
+2020-03-24,Burkina Faso,total_deaths,Total Deaths,4
+2020-03-24,Burkina Faso,new_deaths,NA,NA
+2020-03-24,Burkina Faso,total_recovered,Total Recovered,5
+2020-03-24,Burkina Faso,active_cases,Active Cases,90
+2020-03-24,Burkina Faso,serious_critical,Serious Critical,NA
+2020-03-24,Burkina Faso,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Burkina Faso,death_rate,Death Rate,4.04
+2020-03-24,Sri Lanka,total_cases,Total Cases,97
+2020-03-24,Sri Lanka,new_cases,New Cases,15
+2020-03-24,Sri Lanka,total_deaths,Total Deaths,0
+2020-03-24,Sri Lanka,new_deaths,NA,NA
+2020-03-24,Sri Lanka,total_recovered,Total Recovered,2
+2020-03-24,Sri Lanka,active_cases,Active Cases,95
+2020-03-24,Sri Lanka,serious_critical,Serious Critical,2
+2020-03-24,Sri Lanka,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Sri Lanka,death_rate,Death Rate,0
+2020-03-24,Brunei,total_cases,Total Cases,91
+2020-03-24,Brunei,new_cases,New Cases,3
+2020-03-24,Brunei,total_deaths,Total Deaths,0
+2020-03-24,Brunei,new_deaths,NA,NA
+2020-03-24,Brunei,total_recovered,Total Recovered,2
+2020-03-24,Brunei,active_cases,Active Cases,89
+2020-03-24,Brunei,serious_critical,Serious Critical,2
+2020-03-24,Brunei,tot_cases_1m_pop,Total Cases per 1m Population,208
+2020-03-24,Brunei,death_rate,Death Rate,0
+2020-03-24,Tunisia,total_cases,Total Cases,89
+2020-03-24,Tunisia,new_cases,New Cases,14
+2020-03-24,Tunisia,total_deaths,Total Deaths,3
+2020-03-24,Tunisia,new_deaths,NA,NA
+2020-03-24,Tunisia,total_recovered,Total Recovered,1
+2020-03-24,Tunisia,active_cases,Active Cases,85
+2020-03-24,Tunisia,serious_critical,Serious Critical,11
+2020-03-24,Tunisia,tot_cases_1m_pop,Total Cases per 1m Population,8
+2020-03-24,Tunisia,death_rate,Death Rate,3.37
+2020-03-24,Cambodia,total_cases,Total Cases,87
+2020-03-24,Cambodia,new_cases,New Cases,3
+2020-03-24,Cambodia,total_deaths,Total Deaths,0
+2020-03-24,Cambodia,new_deaths,NA,NA
+2020-03-24,Cambodia,total_recovered,Total Recovered,2
+2020-03-24,Cambodia,active_cases,Active Cases,85
+2020-03-24,Cambodia,serious_critical,Serious Critical,1
+2020-03-24,Cambodia,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Cambodia,death_rate,Death Rate,0
+2020-03-24,Belarus,total_cases,Total Cases,81
+2020-03-24,Belarus,new_cases,New Cases,5
+2020-03-24,Belarus,total_deaths,Total Deaths,0
+2020-03-24,Belarus,new_deaths,NA,NA
+2020-03-24,Belarus,total_recovered,Total Recovered,22
+2020-03-24,Belarus,active_cases,Active Cases,59
+2020-03-24,Belarus,serious_critical,Serious Critical,NA
+2020-03-24,Belarus,tot_cases_1m_pop,Total Cases per 1m Population,9
+2020-03-24,Belarus,death_rate,Death Rate,0
+2020-03-24,Senegal,total_cases,Total Cases,79
+2020-03-24,Senegal,new_cases,New Cases,12
+2020-03-24,Senegal,total_deaths,Total Deaths,0
+2020-03-24,Senegal,new_deaths,NA,NA
+2020-03-24,Senegal,total_recovered,Total Recovered,8
+2020-03-24,Senegal,active_cases,Active Cases,71
+2020-03-24,Senegal,serious_critical,Serious Critical,NA
+2020-03-24,Senegal,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Senegal,death_rate,Death Rate,0
+2020-03-24,Venezuela,total_cases,Total Cases,77
+2020-03-24,Venezuela,new_cases,New Cases,7
+2020-03-24,Venezuela,total_deaths,Total Deaths,0
+2020-03-24,Venezuela,new_deaths,NA,NA
+2020-03-24,Venezuela,total_recovered,Total Recovered,15
+2020-03-24,Venezuela,active_cases,Active Cases,62
+2020-03-24,Venezuela,serious_critical,Serious Critical,2
+2020-03-24,Venezuela,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Venezuela,death_rate,Death Rate,0
+2020-03-24,Ukraine,total_cases,Total Cases,73
+2020-03-24,Ukraine,new_cases,New Cases,NA
+2020-03-24,Ukraine,total_deaths,Total Deaths,3
+2020-03-24,Ukraine,new_deaths,NA,NA
+2020-03-24,Ukraine,total_recovered,Total Recovered,1
+2020-03-24,Ukraine,active_cases,Active Cases,69
+2020-03-24,Ukraine,serious_critical,Serious Critical,NA
+2020-03-24,Ukraine,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Ukraine,death_rate,Death Rate,4.11
+2020-03-24,Azerbaijan,total_cases,Total Cases,72
+2020-03-24,Azerbaijan,new_cases,New Cases,7
+2020-03-24,Azerbaijan,total_deaths,Total Deaths,1
+2020-03-24,Azerbaijan,new_deaths,NA,NA
+2020-03-24,Azerbaijan,total_recovered,Total Recovered,10
+2020-03-24,Azerbaijan,active_cases,Active Cases,61
+2020-03-24,Azerbaijan,serious_critical,Serious Critical,3
+2020-03-24,Azerbaijan,tot_cases_1m_pop,Total Cases per 1m Population,7
+2020-03-24,Azerbaijan,death_rate,Death Rate,1.39
+2020-03-24,Réunion,total_cases,Total Cases,71
+2020-03-24,Réunion,new_cases,New Cases,7
+2020-03-24,Réunion,total_deaths,Total Deaths,0
+2020-03-24,Réunion,new_deaths,NA,NA
+2020-03-24,Réunion,total_recovered,Total Recovered,1
+2020-03-24,Réunion,active_cases,Active Cases,70
+2020-03-24,Réunion,serious_critical,Serious Critical,NA
+2020-03-24,Réunion,tot_cases_1m_pop,Total Cases per 1m Population,79
+2020-03-24,Réunion,death_rate,Death Rate,0
+2020-03-24,Oman,total_cases,Total Cases,66
+2020-03-24,Oman,new_cases,New Cases,11
+2020-03-24,Oman,total_deaths,Total Deaths,0
+2020-03-24,Oman,new_deaths,NA,NA
+2020-03-24,Oman,total_recovered,Total Recovered,17
+2020-03-24,Oman,active_cases,Active Cases,49
+2020-03-24,Oman,serious_critical,Serious Critical,NA
+2020-03-24,Oman,tot_cases_1m_pop,Total Cases per 1m Population,13
+2020-03-24,Oman,death_rate,Death Rate,0
+2020-03-24,Guadeloupe,total_cases,Total Cases,62
+2020-03-24,Guadeloupe,new_cases,New Cases,4
+2020-03-24,Guadeloupe,total_deaths,Total Deaths,NA
+2020-03-24,Guadeloupe,new_deaths,NA,NA
+2020-03-24,Guadeloupe,total_recovered,Total Recovered,NA
+2020-03-24,Guadeloupe,active_cases,Active Cases,61
+2020-03-24,Guadeloupe,serious_critical,Serious Critical,4
+2020-03-24,Guadeloupe,tot_cases_1m_pop,Total Cases per 1m Population,155
+2020-03-24,Guadeloupe,death_rate,Death Rate,NA
+2020-03-24,Kazakhstan,total_cases,Total Cases,62
+2020-03-24,Kazakhstan,new_cases,New Cases,2
+2020-03-24,Kazakhstan,total_deaths,Total Deaths,NA
+2020-03-24,Kazakhstan,new_deaths,NA,NA
+2020-03-24,Kazakhstan,total_recovered,Total Recovered,NA
+2020-03-24,Kazakhstan,active_cases,Active Cases,62
+2020-03-24,Kazakhstan,serious_critical,Serious Critical,NA
+2020-03-24,Kazakhstan,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Kazakhstan,death_rate,Death Rate,NA
+2020-03-24,Georgia,total_cases,Total Cases,61
+2020-03-24,Georgia,new_cases,New Cases,7
+2020-03-24,Georgia,total_deaths,Total Deaths,0
+2020-03-24,Georgia,new_deaths,NA,NA
+2020-03-24,Georgia,total_recovered,Total Recovered,8
+2020-03-24,Georgia,active_cases,Active Cases,53
+2020-03-24,Georgia,serious_critical,Serious Critical,1
+2020-03-24,Georgia,tot_cases_1m_pop,Total Cases per 1m Population,15
+2020-03-24,Georgia,death_rate,Death Rate,0
+2020-03-24,Palestine,total_cases,Total Cases,59
+2020-03-24,Palestine,new_cases,New Cases,NA
+2020-03-24,Palestine,total_deaths,Total Deaths,0
+2020-03-24,Palestine,new_deaths,NA,NA
+2020-03-24,Palestine,total_recovered,Total Recovered,17
+2020-03-24,Palestine,active_cases,Active Cases,42
+2020-03-24,Palestine,serious_critical,Serious Critical,NA
+2020-03-24,Palestine,tot_cases_1m_pop,Total Cases per 1m Population,12
+2020-03-24,Palestine,death_rate,Death Rate,0
+2020-03-24,Cameroon,total_cases,Total Cases,56
+2020-03-24,Cameroon,new_cases,New Cases,16
+2020-03-24,Cameroon,total_deaths,Total Deaths,0
+2020-03-24,Cameroon,new_deaths,NA,NA
+2020-03-24,Cameroon,total_recovered,Total Recovered,2
+2020-03-24,Cameroon,active_cases,Active Cases,54
+2020-03-24,Cameroon,serious_critical,Serious Critical,NA
+2020-03-24,Cameroon,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Cameroon,death_rate,Death Rate,0
+2020-03-24,Martinique,total_cases,Total Cases,53
+2020-03-24,Martinique,new_cases,New Cases,9
+2020-03-24,Martinique,total_deaths,Total Deaths,NA
+2020-03-24,Martinique,new_deaths,NA,NA
+2020-03-24,Martinique,total_recovered,Total Recovered,NA
+2020-03-24,Martinique,active_cases,Active Cases,52
+2020-03-24,Martinique,serious_critical,Serious Critical,7
+2020-03-24,Martinique,tot_cases_1m_pop,Total Cases per 1m Population,141
+2020-03-24,Martinique,death_rate,Death Rate,NA
+2020-03-24,Liechtenstein,total_cases,Total Cases,51
+2020-03-24,Liechtenstein,new_cases,New Cases,14
+2020-03-24,Liechtenstein,total_deaths,Total Deaths,NA
+2020-03-24,Liechtenstein,new_deaths,NA,NA
+2020-03-24,Liechtenstein,total_recovered,Total Recovered,NA
+2020-03-24,Liechtenstein,active_cases,Active Cases,51
+2020-03-24,Liechtenstein,serious_critical,Serious Critical,NA
+2020-03-24,Liechtenstein,tot_cases_1m_pop,Total Cases per 1m Population,1338
+2020-03-24,Liechtenstein,death_rate,Death Rate,NA
+2020-03-24,Trinidad and Tobago,total_cases,Total Cases,51
+2020-03-24,Trinidad and Tobago,new_cases,New Cases,1
+2020-03-24,Trinidad and Tobago,total_deaths,Total Deaths,NA
+2020-03-24,Trinidad and Tobago,new_deaths,NA,NA
+2020-03-24,Trinidad and Tobago,total_recovered,Total Recovered,NA
+2020-03-24,Trinidad and Tobago,active_cases,Active Cases,51
+2020-03-24,Trinidad and Tobago,serious_critical,Serious Critical,NA
+2020-03-24,Trinidad and Tobago,tot_cases_1m_pop,Total Cases per 1m Population,36
+2020-03-24,Trinidad and Tobago,death_rate,Death Rate,NA
+2020-03-24,Uzbekistan,total_cases,Total Cases,46
+2020-03-24,Uzbekistan,new_cases,New Cases,3
+2020-03-24,Uzbekistan,total_deaths,Total Deaths,NA
+2020-03-24,Uzbekistan,new_deaths,NA,NA
+2020-03-24,Uzbekistan,total_recovered,Total Recovered,NA
+2020-03-24,Uzbekistan,active_cases,Active Cases,46
+2020-03-24,Uzbekistan,serious_critical,Serious Critical,NA
+2020-03-24,Uzbekistan,tot_cases_1m_pop,Total Cases per 1m Population,1
+2020-03-24,Uzbekistan,death_rate,Death Rate,NA
+2020-03-24,Afghanistan,total_cases,Total Cases,40
+2020-03-24,Afghanistan,new_cases,New Cases,NA
+2020-03-24,Afghanistan,total_deaths,Total Deaths,1
+2020-03-24,Afghanistan,new_deaths,NA,NA
+2020-03-24,Afghanistan,total_recovered,Total Recovered,1
+2020-03-24,Afghanistan,active_cases,Active Cases,38
+2020-03-24,Afghanistan,serious_critical,Serious Critical,NA
+2020-03-24,Afghanistan,tot_cases_1m_pop,Total Cases per 1m Population,1
+2020-03-24,Afghanistan,death_rate,Death Rate,2.5
+2020-03-24,Cuba,total_cases,Total Cases,40
+2020-03-24,Cuba,new_cases,New Cases,5
+2020-03-24,Cuba,total_deaths,Total Deaths,NA
+2020-03-24,Cuba,new_deaths,NA,NA
+2020-03-24,Cuba,total_recovered,Total Recovered,NA
+2020-03-24,Cuba,active_cases,Active Cases,39
+2020-03-24,Cuba,serious_critical,Serious Critical,3
+2020-03-24,Cuba,tot_cases_1m_pop,Total Cases per 1m Population,4
+2020-03-24,Cuba,death_rate,Death Rate,NA
+2020-03-24,Mauritius,total_cases,Total Cases,36
+2020-03-24,Mauritius,new_cases,New Cases,8
+2020-03-24,Mauritius,total_deaths,Total Deaths,NA
+2020-03-24,Mauritius,new_deaths,NA,NA
+2020-03-24,Mauritius,total_recovered,Total Recovered,NA
+2020-03-24,Mauritius,active_cases,Active Cases,34
+2020-03-24,Mauritius,serious_critical,Serious Critical,1
+2020-03-24,Mauritius,tot_cases_1m_pop,Total Cases per 1m Population,28
+2020-03-24,Mauritius,death_rate,Death Rate,NA
+2020-03-24,DRC,total_cases,Total Cases,36
+2020-03-24,DRC,new_cases,New Cases,6
+2020-03-24,DRC,total_deaths,Total Deaths,NA
+2020-03-24,DRC,new_deaths,NA,NA
+2020-03-24,DRC,total_recovered,Total Recovered,NA
+2020-03-24,DRC,active_cases,Active Cases,35
+2020-03-24,DRC,serious_critical,Serious Critical,NA
+2020-03-24,DRC,tot_cases_1m_pop,Total Cases per 1m Population,0.4
+2020-03-24,DRC,death_rate,Death Rate,NA
+2020-03-24,Nigeria,total_cases,Total Cases,36
+2020-03-24,Nigeria,new_cases,New Cases,6
+2020-03-24,Nigeria,total_deaths,Total Deaths,1
+2020-03-24,Nigeria,new_deaths,NA,1
+2020-03-24,Nigeria,total_recovered,Total Recovered,2
+2020-03-24,Nigeria,active_cases,Active Cases,33
+2020-03-24,Nigeria,serious_critical,Serious Critical,NA
+2020-03-24,Nigeria,tot_cases_1m_pop,Total Cases per 1m Population,0.2
+2020-03-24,Nigeria,death_rate,Death Rate,2.78
+2020-03-24,Channel Islands,total_cases,Total Cases,36
+2020-03-24,Channel Islands,new_cases,New Cases,4
+2020-03-24,Channel Islands,total_deaths,Total Deaths,NA
+2020-03-24,Channel Islands,new_deaths,NA,NA
+2020-03-24,Channel Islands,total_recovered,Total Recovered,NA
+2020-03-24,Channel Islands,active_cases,Active Cases,36
+2020-03-24,Channel Islands,serious_critical,Serious Critical,NA
+2020-03-24,Channel Islands,tot_cases_1m_pop,Total Cases per 1m Population,207
+2020-03-24,Channel Islands,death_rate,Death Rate,NA
+2020-03-24,Bangladesh,total_cases,Total Cases,33
+2020-03-24,Bangladesh,new_cases,New Cases,6
+2020-03-24,Bangladesh,total_deaths,Total Deaths,3
+2020-03-24,Bangladesh,new_deaths,NA,1
+2020-03-24,Bangladesh,total_recovered,Total Recovered,5
+2020-03-24,Bangladesh,active_cases,Active Cases,25
+2020-03-24,Bangladesh,serious_critical,Serious Critical,NA
+2020-03-24,Bangladesh,tot_cases_1m_pop,Total Cases per 1m Population,0.2
+2020-03-24,Bangladesh,death_rate,Death Rate,9.09
+2020-03-24,Puerto Rico,total_cases,Total Cases,31
+2020-03-24,Puerto Rico,new_cases,New Cases,8
+2020-03-24,Puerto Rico,total_deaths,Total Deaths,2
+2020-03-24,Puerto Rico,new_deaths,NA,1
+2020-03-24,Puerto Rico,total_recovered,Total Recovered,1
+2020-03-24,Puerto Rico,active_cases,Active Cases,28
+2020-03-24,Puerto Rico,serious_critical,Serious Critical,NA
+2020-03-24,Puerto Rico,tot_cases_1m_pop,Total Cases per 1m Population,11
+2020-03-24,Puerto Rico,death_rate,Death Rate,6.45
+2020-03-24,Guam,total_cases,Total Cases,29
+2020-03-24,Guam,new_cases,New Cases,2
+2020-03-24,Guam,total_deaths,Total Deaths,NA
+2020-03-24,Guam,new_deaths,NA,NA
+2020-03-24,Guam,total_recovered,Total Recovered,NA
+2020-03-24,Guam,active_cases,Active Cases,28
+2020-03-24,Guam,serious_critical,Serious Critical,NA
+2020-03-24,Guam,tot_cases_1m_pop,Total Cases per 1m Population,172
+2020-03-24,Guam,death_rate,Death Rate,NA
+2020-03-24,Montenegro,total_cases,Total Cases,27
+2020-03-24,Montenegro,new_cases,New Cases,6
+2020-03-24,Montenegro,total_deaths,Total Deaths,NA
+2020-03-24,Montenegro,new_deaths,NA,1
+2020-03-24,Montenegro,total_recovered,Total Recovered,NA
+2020-03-24,Montenegro,active_cases,Active Cases,26
+2020-03-24,Montenegro,serious_critical,Serious Critical,NA
+2020-03-24,Montenegro,tot_cases_1m_pop,Total Cases per 1m Population,43
+2020-03-24,Montenegro,death_rate,Death Rate,NA
+2020-03-24,Bolivia,total_cases,Total Cases,27
+2020-03-24,Bolivia,new_cases,New Cases,3
+2020-03-24,Bolivia,total_deaths,Total Deaths,NA
+2020-03-24,Bolivia,new_deaths,NA,NA
+2020-03-24,Bolivia,total_recovered,Total Recovered,NA
+2020-03-24,Bolivia,active_cases,Active Cases,27
+2020-03-24,Bolivia,serious_critical,Serious Critical,NA
+2020-03-24,Bolivia,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Bolivia,death_rate,Death Rate,NA
+2020-03-24,Honduras,total_cases,Total Cases,27
+2020-03-24,Honduras,new_cases,New Cases,1
+2020-03-24,Honduras,total_deaths,Total Deaths,NA
+2020-03-24,Honduras,new_deaths,NA,NA
+2020-03-24,Honduras,total_recovered,Total Recovered,NA
+2020-03-24,Honduras,active_cases,Active Cases,27
+2020-03-24,Honduras,serious_critical,Serious Critical,NA
+2020-03-24,Honduras,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Honduras,death_rate,Death Rate,NA
+2020-03-24,Macao,total_cases,Total Cases,25
+2020-03-24,Macao,new_cases,New Cases,3
+2020-03-24,Macao,total_deaths,Total Deaths,0
+2020-03-24,Macao,new_deaths,NA,NA
+2020-03-24,Macao,total_recovered,Total Recovered,10
+2020-03-24,Macao,active_cases,Active Cases,15
+2020-03-24,Macao,serious_critical,Serious Critical,NA
+2020-03-24,Macao,tot_cases_1m_pop,Total Cases per 1m Population,39
+2020-03-24,Macao,death_rate,Death Rate,0
+2020-03-24,Ivory Coast,total_cases,Total Cases,25
+2020-03-24,Ivory Coast,new_cases,New Cases,11
+2020-03-24,Ivory Coast,total_deaths,Total Deaths,0
+2020-03-24,Ivory Coast,new_deaths,NA,NA
+2020-03-24,Ivory Coast,total_recovered,Total Recovered,2
+2020-03-24,Ivory Coast,active_cases,Active Cases,23
+2020-03-24,Ivory Coast,serious_critical,Serious Critical,NA
+2020-03-24,Ivory Coast,tot_cases_1m_pop,Total Cases per 1m Population,0.9
+2020-03-24,Ivory Coast,death_rate,Death Rate,0
+2020-03-24,Ghana,total_cases,Total Cases,24
+2020-03-24,Ghana,new_cases,New Cases,1
+2020-03-24,Ghana,total_deaths,Total Deaths,NA
+2020-03-24,Ghana,new_deaths,NA,NA
+2020-03-24,Ghana,total_recovered,Total Recovered,NA
+2020-03-24,Ghana,active_cases,Active Cases,23
+2020-03-24,Ghana,serious_critical,Serious Critical,NA
+2020-03-24,Ghana,tot_cases_1m_pop,Total Cases per 1m Population,0.8
+2020-03-24,Ghana,death_rate,Death Rate,NA
+2020-03-24,Mayotte,total_cases,Total Cases,24
+2020-03-24,Mayotte,new_cases,New Cases,13
+2020-03-24,Mayotte,total_deaths,Total Deaths,NA
+2020-03-24,Mayotte,new_deaths,NA,NA
+2020-03-24,Mayotte,total_recovered,Total Recovered,NA
+2020-03-24,Mayotte,active_cases,Active Cases,24
+2020-03-24,Mayotte,serious_critical,Serious Critical,NA
+2020-03-24,Mayotte,tot_cases_1m_pop,Total Cases per 1m Population,88
+2020-03-24,Mayotte,death_rate,Death Rate,NA
+2020-03-24,Monaco,total_cases,Total Cases,23
+2020-03-24,Monaco,new_cases,New Cases,NA
+2020-03-24,Monaco,total_deaths,Total Deaths,0
+2020-03-24,Monaco,new_deaths,NA,NA
+2020-03-24,Monaco,total_recovered,Total Recovered,1
+2020-03-24,Monaco,active_cases,Active Cases,22
+2020-03-24,Monaco,serious_critical,Serious Critical,NA
+2020-03-24,Monaco,tot_cases_1m_pop,Total Cases per 1m Population,586
+2020-03-24,Monaco,death_rate,Death Rate,0
+2020-03-24,Paraguay,total_cases,Total Cases,22
+2020-03-24,Paraguay,new_cases,New Cases,NA
+2020-03-24,Paraguay,total_deaths,Total Deaths,NA
+2020-03-24,Paraguay,new_deaths,NA,NA
+2020-03-24,Paraguay,total_recovered,Total Recovered,NA
+2020-03-24,Paraguay,active_cases,Active Cases,21
+2020-03-24,Paraguay,serious_critical,Serious Critical,1
+2020-03-24,Paraguay,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Paraguay,death_rate,Death Rate,NA
+2020-03-24,Guatemala,total_cases,Total Cases,20
+2020-03-24,Guatemala,new_cases,New Cases,1
+2020-03-24,Guatemala,total_deaths,Total Deaths,NA
+2020-03-24,Guatemala,new_deaths,NA,NA
+2020-03-24,Guatemala,total_recovered,Total Recovered,NA
+2020-03-24,Guatemala,active_cases,Active Cases,19
+2020-03-24,Guatemala,serious_critical,Serious Critical,NA
+2020-03-24,Guatemala,tot_cases_1m_pop,Total Cases per 1m Population,1
+2020-03-24,Guatemala,death_rate,Death Rate,NA
+2020-03-24,Guyana,total_cases,Total Cases,20
+2020-03-24,Guyana,new_cases,New Cases,1
+2020-03-24,Guyana,total_deaths,Total Deaths,NA
+2020-03-24,Guyana,new_deaths,NA,NA
+2020-03-24,Guyana,total_recovered,Total Recovered,NA
+2020-03-24,Guyana,active_cases,Active Cases,19
+2020-03-24,Guyana,serious_critical,Serious Critical,NA
+2020-03-24,Guyana,tot_cases_1m_pop,Total Cases per 1m Population,25
+2020-03-24,Guyana,death_rate,Death Rate,NA
+2020-03-24,French Guiana,total_cases,Total Cases,20
+2020-03-24,French Guiana,new_cases,New Cases,2
+2020-03-24,French Guiana,total_deaths,Total Deaths,0
+2020-03-24,French Guiana,new_deaths,NA,NA
+2020-03-24,French Guiana,total_recovered,Total Recovered,6
+2020-03-24,French Guiana,active_cases,Active Cases,14
+2020-03-24,French Guiana,serious_critical,Serious Critical,NA
+2020-03-24,French Guiana,tot_cases_1m_pop,Total Cases per 1m Population,67
+2020-03-24,French Guiana,death_rate,Death Rate,0
+2020-03-24,Jamaica,total_cases,Total Cases,19
+2020-03-24,Jamaica,new_cases,New Cases,NA
+2020-03-24,Jamaica,total_deaths,Total Deaths,1
+2020-03-24,Jamaica,new_deaths,NA,NA
+2020-03-24,Jamaica,total_recovered,Total Recovered,2
+2020-03-24,Jamaica,active_cases,Active Cases,16
+2020-03-24,Jamaica,serious_critical,Serious Critical,NA
+2020-03-24,Jamaica,tot_cases_1m_pop,Total Cases per 1m Population,6
+2020-03-24,Jamaica,death_rate,Death Rate,5.26
+2020-03-24,Rwanda,total_cases,Total Cases,19
+2020-03-24,Rwanda,new_cases,New Cases,NA
+2020-03-24,Rwanda,total_deaths,Total Deaths,NA
+2020-03-24,Rwanda,new_deaths,NA,NA
+2020-03-24,Rwanda,total_recovered,Total Recovered,NA
+2020-03-24,Rwanda,active_cases,Active Cases,19
+2020-03-24,Rwanda,serious_critical,Serious Critical,NA
+2020-03-24,Rwanda,tot_cases_1m_pop,Total Cases per 1m Population,1
+2020-03-24,Rwanda,death_rate,Death Rate,NA
+2020-03-24,French Polynesia,total_cases,Total Cases,18
+2020-03-24,French Polynesia,new_cases,New Cases,NA
+2020-03-24,French Polynesia,total_deaths,Total Deaths,NA
+2020-03-24,French Polynesia,new_deaths,NA,NA
+2020-03-24,French Polynesia,total_recovered,Total Recovered,NA
+2020-03-24,French Polynesia,active_cases,Active Cases,18
+2020-03-24,French Polynesia,serious_critical,Serious Critical,NA
+2020-03-24,French Polynesia,tot_cases_1m_pop,Total Cases per 1m Population,64
+2020-03-24,French Polynesia,death_rate,Death Rate,NA
+2020-03-24,Togo,total_cases,Total Cases,18
+2020-03-24,Togo,new_cases,New Cases,2
+2020-03-24,Togo,total_deaths,Total Deaths,NA
+2020-03-24,Togo,new_deaths,NA,NA
+2020-03-24,Togo,total_recovered,Total Recovered,NA
+2020-03-24,Togo,active_cases,Active Cases,18
+2020-03-24,Togo,serious_critical,Serious Critical,NA
+2020-03-24,Togo,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Togo,death_rate,Death Rate,NA
+2020-03-24,Barbados,total_cases,Total Cases,17
+2020-03-24,Barbados,new_cases,New Cases,3
+2020-03-24,Barbados,total_deaths,Total Deaths,NA
+2020-03-24,Barbados,new_deaths,NA,NA
+2020-03-24,Barbados,total_recovered,Total Recovered,NA
+2020-03-24,Barbados,active_cases,Active Cases,17
+2020-03-24,Barbados,serious_critical,Serious Critical,NA
+2020-03-24,Barbados,tot_cases_1m_pop,Total Cases per 1m Population,59
+2020-03-24,Barbados,death_rate,Death Rate,NA
+2020-03-24,U.S. Virgin Islands,total_cases,Total Cases,17
+2020-03-24,U.S. Virgin Islands,new_cases,New Cases,11
+2020-03-24,U.S. Virgin Islands,total_deaths,Total Deaths,NA
+2020-03-24,U.S. Virgin Islands,new_deaths,NA,NA
+2020-03-24,U.S. Virgin Islands,total_recovered,Total Recovered,NA
+2020-03-24,U.S. Virgin Islands,active_cases,Active Cases,17
+2020-03-24,U.S. Virgin Islands,serious_critical,Serious Critical,NA
+2020-03-24,U.S. Virgin Islands,tot_cases_1m_pop,Total Cases per 1m Population,163
+2020-03-24,U.S. Virgin Islands,death_rate,Death Rate,NA
+2020-03-24,Kenya,total_cases,Total Cases,16
+2020-03-24,Kenya,new_cases,New Cases,1
+2020-03-24,Kenya,total_deaths,Total Deaths,NA
+2020-03-24,Kenya,new_deaths,NA,NA
+2020-03-24,Kenya,total_recovered,Total Recovered,NA
+2020-03-24,Kenya,active_cases,Active Cases,16
+2020-03-24,Kenya,serious_critical,Serious Critical,NA
+2020-03-24,Kenya,tot_cases_1m_pop,Total Cases per 1m Population,0.3
+2020-03-24,Kenya,death_rate,Death Rate,NA
+2020-03-24,Kyrgyzstan,total_cases,Total Cases,16
+2020-03-24,Kyrgyzstan,new_cases,New Cases,2
+2020-03-24,Kyrgyzstan,total_deaths,Total Deaths,NA
+2020-03-24,Kyrgyzstan,new_deaths,NA,NA
+2020-03-24,Kyrgyzstan,total_recovered,Total Recovered,NA
+2020-03-24,Kyrgyzstan,active_cases,Active Cases,16
+2020-03-24,Kyrgyzstan,serious_critical,Serious Critical,NA
+2020-03-24,Kyrgyzstan,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Kyrgyzstan,death_rate,Death Rate,NA
+2020-03-24,Gibraltar,total_cases,Total Cases,15
+2020-03-24,Gibraltar,new_cases,New Cases,NA
+2020-03-24,Gibraltar,total_deaths,Total Deaths,0
+2020-03-24,Gibraltar,new_deaths,NA,NA
+2020-03-24,Gibraltar,total_recovered,Total Recovered,5
+2020-03-24,Gibraltar,active_cases,Active Cases,10
+2020-03-24,Gibraltar,serious_critical,Serious Critical,NA
+2020-03-24,Gibraltar,tot_cases_1m_pop,Total Cases per 1m Population,445
+2020-03-24,Gibraltar,death_rate,Death Rate,0
+2020-03-24,Isle of Man,total_cases,Total Cases,13
+2020-03-24,Isle of Man,new_cases,New Cases,8
+2020-03-24,Isle of Man,total_deaths,Total Deaths,NA
+2020-03-24,Isle of Man,new_deaths,NA,NA
+2020-03-24,Isle of Man,total_recovered,Total Recovered,NA
+2020-03-24,Isle of Man,active_cases,Active Cases,13
+2020-03-24,Isle of Man,serious_critical,Serious Critical,NA
+2020-03-24,Isle of Man,tot_cases_1m_pop,Total Cases per 1m Population,153
+2020-03-24,Isle of Man,death_rate,Death Rate,NA
+2020-03-24,Maldives,total_cases,Total Cases,13
+2020-03-24,Maldives,new_cases,New Cases,NA
+2020-03-24,Maldives,total_deaths,Total Deaths,0
+2020-03-24,Maldives,new_deaths,NA,NA
+2020-03-24,Maldives,total_recovered,Total Recovered,5
+2020-03-24,Maldives,active_cases,Active Cases,8
+2020-03-24,Maldives,serious_critical,Serious Critical,NA
+2020-03-24,Maldives,tot_cases_1m_pop,Total Cases per 1m Population,24
+2020-03-24,Maldives,death_rate,Death Rate,0
+2020-03-24,Madagascar,total_cases,Total Cases,12
+2020-03-24,Madagascar,new_cases,New Cases,9
+2020-03-24,Madagascar,total_deaths,Total Deaths,NA
+2020-03-24,Madagascar,new_deaths,NA,NA
+2020-03-24,Madagascar,total_recovered,Total Recovered,NA
+2020-03-24,Madagascar,active_cases,Active Cases,12
+2020-03-24,Madagascar,serious_critical,Serious Critical,NA
+2020-03-24,Madagascar,tot_cases_1m_pop,Total Cases per 1m Population,0.4
+2020-03-24,Madagascar,death_rate,Death Rate,NA
+2020-03-24,Tanzania,total_cases,Total Cases,12
+2020-03-24,Tanzania,new_cases,New Cases,NA
+2020-03-24,Tanzania,total_deaths,Total Deaths,NA
+2020-03-24,Tanzania,new_deaths,NA,NA
+2020-03-24,Tanzania,total_recovered,Total Recovered,NA
+2020-03-24,Tanzania,active_cases,Active Cases,12
+2020-03-24,Tanzania,serious_critical,Serious Critical,NA
+2020-03-24,Tanzania,tot_cases_1m_pop,Total Cases per 1m Population,0.2
+2020-03-24,Tanzania,death_rate,Death Rate,NA
+2020-03-24,Ethiopia,total_cases,Total Cases,11
+2020-03-24,Ethiopia,new_cases,New Cases,NA
+2020-03-24,Ethiopia,total_deaths,Total Deaths,NA
+2020-03-24,Ethiopia,new_deaths,NA,NA
+2020-03-24,Ethiopia,total_recovered,Total Recovered,NA
+2020-03-24,Ethiopia,active_cases,Active Cases,11
+2020-03-24,Ethiopia,serious_critical,Serious Critical,NA
+2020-03-24,Ethiopia,tot_cases_1m_pop,Total Cases per 1m Population,0.1
+2020-03-24,Ethiopia,death_rate,Death Rate,NA
+2020-03-24,Mongolia,total_cases,Total Cases,10
+2020-03-24,Mongolia,new_cases,New Cases,NA
+2020-03-24,Mongolia,total_deaths,Total Deaths,NA
+2020-03-24,Mongolia,new_deaths,NA,NA
+2020-03-24,Mongolia,total_recovered,Total Recovered,NA
+2020-03-24,Mongolia,active_cases,Active Cases,10
+2020-03-24,Mongolia,serious_critical,Serious Critical,NA
+2020-03-24,Mongolia,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Mongolia,death_rate,Death Rate,NA
+2020-03-24,Aruba,total_cases,Total Cases,9
+2020-03-24,Aruba,new_cases,New Cases,NA
+2020-03-24,Aruba,total_deaths,Total Deaths,0
+2020-03-24,Aruba,new_deaths,NA,NA
+2020-03-24,Aruba,total_recovered,Total Recovered,1
+2020-03-24,Aruba,active_cases,Active Cases,8
+2020-03-24,Aruba,serious_critical,Serious Critical,NA
+2020-03-24,Aruba,tot_cases_1m_pop,Total Cases per 1m Population,84
+2020-03-24,Aruba,death_rate,Death Rate,0
+2020-03-24,Equatorial Guinea,total_cases,Total Cases,9
+2020-03-24,Equatorial Guinea,new_cases,New Cases,3
+2020-03-24,Equatorial Guinea,total_deaths,Total Deaths,NA
+2020-03-24,Equatorial Guinea,new_deaths,NA,NA
+2020-03-24,Equatorial Guinea,total_recovered,Total Recovered,NA
+2020-03-24,Equatorial Guinea,active_cases,Active Cases,9
+2020-03-24,Equatorial Guinea,serious_critical,Serious Critical,NA
+2020-03-24,Equatorial Guinea,tot_cases_1m_pop,Total Cases per 1m Population,6
+2020-03-24,Equatorial Guinea,death_rate,Death Rate,NA
+2020-03-24,New Caledonia,total_cases,Total Cases,8
+2020-03-24,New Caledonia,new_cases,New Cases,4
+2020-03-24,New Caledonia,total_deaths,Total Deaths,NA
+2020-03-24,New Caledonia,new_deaths,NA,NA
+2020-03-24,New Caledonia,total_recovered,Total Recovered,NA
+2020-03-24,New Caledonia,active_cases,Active Cases,8
+2020-03-24,New Caledonia,serious_critical,Serious Critical,NA
+2020-03-24,New Caledonia,tot_cases_1m_pop,Total Cases per 1m Population,28
+2020-03-24,New Caledonia,death_rate,Death Rate,NA
+2020-03-24,Saint Martin,total_cases,Total Cases,8
+2020-03-24,Saint Martin,new_cases,New Cases,3
+2020-03-24,Saint Martin,total_deaths,Total Deaths,NA
+2020-03-24,Saint Martin,new_deaths,NA,NA
+2020-03-24,Saint Martin,total_recovered,Total Recovered,NA
+2020-03-24,Saint Martin,active_cases,Active Cases,8
+2020-03-24,Saint Martin,serious_critical,Serious Critical,NA
+2020-03-24,Saint Martin,tot_cases_1m_pop,Total Cases per 1m Population,207
+2020-03-24,Saint Martin,death_rate,Death Rate,NA
+2020-03-24,Seychelles,total_cases,Total Cases,7
+2020-03-24,Seychelles,new_cases,New Cases,NA
+2020-03-24,Seychelles,total_deaths,Total Deaths,NA
+2020-03-24,Seychelles,new_deaths,NA,NA
+2020-03-24,Seychelles,total_recovered,Total Recovered,NA
+2020-03-24,Seychelles,active_cases,Active Cases,7
+2020-03-24,Seychelles,serious_critical,Serious Critical,NA
+2020-03-24,Seychelles,tot_cases_1m_pop,Total Cases per 1m Population,71
+2020-03-24,Seychelles,death_rate,Death Rate,NA
+2020-03-24,Bermuda,total_cases,Total Cases,6
+2020-03-24,Bermuda,new_cases,New Cases,NA
+2020-03-24,Bermuda,total_deaths,Total Deaths,NA
+2020-03-24,Bermuda,new_deaths,NA,NA
+2020-03-24,Bermuda,total_recovered,Total Recovered,NA
+2020-03-24,Bermuda,active_cases,Active Cases,6
+2020-03-24,Bermuda,serious_critical,Serious Critical,NA
+2020-03-24,Bermuda,tot_cases_1m_pop,Total Cases per 1m Population,96
+2020-03-24,Bermuda,death_rate,Death Rate,NA
+2020-03-24,Haiti,total_cases,Total Cases,6
+2020-03-24,Haiti,new_cases,New Cases,4
+2020-03-24,Haiti,total_deaths,Total Deaths,NA
+2020-03-24,Haiti,new_deaths,NA,NA
+2020-03-24,Haiti,total_recovered,Total Recovered,NA
+2020-03-24,Haiti,active_cases,Active Cases,6
+2020-03-24,Haiti,serious_critical,Serious Critical,NA
+2020-03-24,Haiti,tot_cases_1m_pop,Total Cases per 1m Population,0.5
+2020-03-24,Haiti,death_rate,Death Rate,NA
+2020-03-24,Gabon,total_cases,Total Cases,5
+2020-03-24,Gabon,new_cases,New Cases,NA
+2020-03-24,Gabon,total_deaths,Total Deaths,NA
+2020-03-24,Gabon,new_deaths,NA,NA
+2020-03-24,Gabon,total_recovered,Total Recovered,NA
+2020-03-24,Gabon,active_cases,Active Cases,4
+2020-03-24,Gabon,serious_critical,Serious Critical,NA
+2020-03-24,Gabon,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Gabon,death_rate,Death Rate,NA
+2020-03-24,Suriname,total_cases,Total Cases,5
+2020-03-24,Suriname,new_cases,New Cases,NA
+2020-03-24,Suriname,total_deaths,Total Deaths,NA
+2020-03-24,Suriname,new_deaths,NA,NA
+2020-03-24,Suriname,total_recovered,Total Recovered,NA
+2020-03-24,Suriname,active_cases,Active Cases,5
+2020-03-24,Suriname,serious_critical,Serious Critical,NA
+2020-03-24,Suriname,tot_cases_1m_pop,Total Cases per 1m Population,9
+2020-03-24,Suriname,death_rate,Death Rate,NA
+2020-03-24,Curaçao,total_cases,Total Cases,4
+2020-03-24,Curaçao,new_cases,New Cases,1
+2020-03-24,Curaçao,total_deaths,Total Deaths,NA
+2020-03-24,Curaçao,new_deaths,NA,NA
+2020-03-24,Curaçao,total_recovered,Total Recovered,NA
+2020-03-24,Curaçao,active_cases,Active Cases,3
+2020-03-24,Curaçao,serious_critical,Serious Critical,NA
+2020-03-24,Curaçao,tot_cases_1m_pop,Total Cases per 1m Population,24
+2020-03-24,Curaçao,death_rate,Death Rate,NA
+2020-03-24,Bahamas,total_cases,Total Cases,4
+2020-03-24,Bahamas,new_cases,New Cases,NA
+2020-03-24,Bahamas,total_deaths,Total Deaths,NA
+2020-03-24,Bahamas,new_deaths,NA,NA
+2020-03-24,Bahamas,total_recovered,Total Recovered,NA
+2020-03-24,Bahamas,active_cases,Active Cases,4
+2020-03-24,Bahamas,serious_critical,Serious Critical,NA
+2020-03-24,Bahamas,tot_cases_1m_pop,Total Cases per 1m Population,10
+2020-03-24,Bahamas,death_rate,Death Rate,NA
+2020-03-24,Congo,total_cases,Total Cases,4
+2020-03-24,Congo,new_cases,New Cases,1
+2020-03-24,Congo,total_deaths,Total Deaths,NA
+2020-03-24,Congo,new_deaths,NA,NA
+2020-03-24,Congo,total_recovered,Total Recovered,NA
+2020-03-24,Congo,active_cases,Active Cases,4
+2020-03-24,Congo,serious_critical,Serious Critical,NA
+2020-03-24,Congo,tot_cases_1m_pop,Total Cases per 1m Population,0.7
+2020-03-24,Congo,death_rate,Death Rate,NA
+2020-03-24,Greenland,total_cases,Total Cases,4
+2020-03-24,Greenland,new_cases,New Cases,NA
+2020-03-24,Greenland,total_deaths,Total Deaths,NA
+2020-03-24,Greenland,new_deaths,NA,NA
+2020-03-24,Greenland,total_recovered,Total Recovered,NA
+2020-03-24,Greenland,active_cases,Active Cases,4
+2020-03-24,Greenland,serious_critical,Serious Critical,NA
+2020-03-24,Greenland,tot_cases_1m_pop,Total Cases per 1m Population,70
+2020-03-24,Greenland,death_rate,Death Rate,NA
+2020-03-24,Guinea,total_cases,Total Cases,4
+2020-03-24,Guinea,new_cases,New Cases,2
+2020-03-24,Guinea,total_deaths,Total Deaths,NA
+2020-03-24,Guinea,new_deaths,NA,NA
+2020-03-24,Guinea,total_recovered,Total Recovered,NA
+2020-03-24,Guinea,active_cases,Active Cases,4
+2020-03-24,Guinea,serious_critical,Serious Critical,NA
+2020-03-24,Guinea,tot_cases_1m_pop,Total Cases per 1m Population,0.3
+2020-03-24,Guinea,death_rate,Death Rate,NA
+2020-03-24,Namibia,total_cases,Total Cases,4
+2020-03-24,Namibia,new_cases,New Cases,1
+2020-03-24,Namibia,total_deaths,Total Deaths,NA
+2020-03-24,Namibia,new_deaths,NA,NA
+2020-03-24,Namibia,total_recovered,Total Recovered,NA
+2020-03-24,Namibia,active_cases,Active Cases,4
+2020-03-24,Namibia,serious_critical,Serious Critical,NA
+2020-03-24,Namibia,tot_cases_1m_pop,Total Cases per 1m Population,2
+2020-03-24,Namibia,death_rate,Death Rate,NA
+2020-03-24,Eswatini,total_cases,Total Cases,4
+2020-03-24,Eswatini,new_cases,New Cases,NA
+2020-03-24,Eswatini,total_deaths,Total Deaths,NA
+2020-03-24,Eswatini,new_deaths,NA,NA
+2020-03-24,Eswatini,total_recovered,Total Recovered,NA
+2020-03-24,Eswatini,active_cases,Active Cases,4
+2020-03-24,Eswatini,serious_critical,Serious Critical,NA
+2020-03-24,Eswatini,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Eswatini,death_rate,Death Rate,NA
+2020-03-24,Cayman Islands,total_cases,Total Cases,3
+2020-03-24,Cayman Islands,new_cases,New Cases,NA
+2020-03-24,Cayman Islands,total_deaths,Total Deaths,NA
+2020-03-24,Cayman Islands,new_deaths,NA,NA
+2020-03-24,Cayman Islands,total_recovered,Total Recovered,NA
+2020-03-24,Cayman Islands,active_cases,Active Cases,2
+2020-03-24,Cayman Islands,serious_critical,Serious Critical,NA
+2020-03-24,Cayman Islands,tot_cases_1m_pop,Total Cases per 1m Population,46
+2020-03-24,Cayman Islands,death_rate,Death Rate,NA
+2020-03-24,Zimbabwe,total_cases,Total Cases,3
+2020-03-24,Zimbabwe,new_cases,New Cases,NA
+2020-03-24,Zimbabwe,total_deaths,Total Deaths,NA
+2020-03-24,Zimbabwe,new_deaths,NA,1
+2020-03-24,Zimbabwe,total_recovered,Total Recovered,NA
+2020-03-24,Zimbabwe,active_cases,Active Cases,2
+2020-03-24,Zimbabwe,serious_critical,Serious Critical,NA
+2020-03-24,Zimbabwe,tot_cases_1m_pop,Total Cases per 1m Population,0.2
+2020-03-24,Zimbabwe,death_rate,Death Rate,NA
+2020-03-24,Angola,total_cases,Total Cases,3
+2020-03-24,Angola,new_cases,New Cases,1
+2020-03-24,Angola,total_deaths,Total Deaths,NA
+2020-03-24,Angola,new_deaths,NA,NA
+2020-03-24,Angola,total_recovered,Total Recovered,NA
+2020-03-24,Angola,active_cases,Active Cases,3
+2020-03-24,Angola,serious_critical,Serious Critical,NA
+2020-03-24,Angola,tot_cases_1m_pop,Total Cases per 1m Population,0.09
+2020-03-24,Angola,death_rate,Death Rate,NA
+2020-03-24,Antigua and Barbuda,total_cases,Total Cases,3
+2020-03-24,Antigua and Barbuda,new_cases,New Cases,2
+2020-03-24,Antigua and Barbuda,total_deaths,Total Deaths,NA
+2020-03-24,Antigua and Barbuda,new_deaths,NA,NA
+2020-03-24,Antigua and Barbuda,total_recovered,Total Recovered,NA
+2020-03-24,Antigua and Barbuda,active_cases,Active Cases,3
+2020-03-24,Antigua and Barbuda,serious_critical,Serious Critical,NA
+2020-03-24,Antigua and Barbuda,tot_cases_1m_pop,Total Cases per 1m Population,31
+2020-03-24,Antigua and Barbuda,death_rate,Death Rate,NA
+2020-03-24,Cabo Verde,total_cases,Total Cases,3
+2020-03-24,Cabo Verde,new_cases,New Cases,NA
+2020-03-24,Cabo Verde,total_deaths,Total Deaths,NA
+2020-03-24,Cabo Verde,new_deaths,NA,NA
+2020-03-24,Cabo Verde,total_recovered,Total Recovered,NA
+2020-03-24,Cabo Verde,active_cases,Active Cases,3
+2020-03-24,Cabo Verde,serious_critical,Serious Critical,NA
+2020-03-24,Cabo Verde,tot_cases_1m_pop,Total Cases per 1m Population,5
+2020-03-24,Cabo Verde,death_rate,Death Rate,NA
+2020-03-24,CAR,total_cases,Total Cases,3
+2020-03-24,CAR,new_cases,New Cases,NA
+2020-03-24,CAR,total_deaths,Total Deaths,NA
+2020-03-24,CAR,new_deaths,NA,NA
+2020-03-24,CAR,total_recovered,Total Recovered,NA
+2020-03-24,CAR,active_cases,Active Cases,3
+2020-03-24,CAR,serious_critical,Serious Critical,NA
+2020-03-24,CAR,tot_cases_1m_pop,Total Cases per 1m Population,0.6
+2020-03-24,CAR,death_rate,Death Rate,NA
+2020-03-24,Djibouti,total_cases,Total Cases,3
+2020-03-24,Djibouti,new_cases,New Cases,2
+2020-03-24,Djibouti,total_deaths,Total Deaths,NA
+2020-03-24,Djibouti,new_deaths,NA,NA
+2020-03-24,Djibouti,total_recovered,Total Recovered,NA
+2020-03-24,Djibouti,active_cases,Active Cases,3
+2020-03-24,Djibouti,serious_critical,Serious Critical,NA
+2020-03-24,Djibouti,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Djibouti,death_rate,Death Rate,NA
+2020-03-24,El Salvador,total_cases,Total Cases,3
+2020-03-24,El Salvador,new_cases,New Cases,NA
+2020-03-24,El Salvador,total_deaths,Total Deaths,NA
+2020-03-24,El Salvador,new_deaths,NA,NA
+2020-03-24,El Salvador,total_recovered,Total Recovered,NA
+2020-03-24,El Salvador,active_cases,Active Cases,3
+2020-03-24,El Salvador,serious_critical,Serious Critical,NA
+2020-03-24,El Salvador,tot_cases_1m_pop,Total Cases per 1m Population,0.5
+2020-03-24,El Salvador,death_rate,Death Rate,NA
+2020-03-24,Fiji,total_cases,Total Cases,3
+2020-03-24,Fiji,new_cases,New Cases,1
+2020-03-24,Fiji,total_deaths,Total Deaths,NA
+2020-03-24,Fiji,new_deaths,NA,NA
+2020-03-24,Fiji,total_recovered,Total Recovered,NA
+2020-03-24,Fiji,active_cases,Active Cases,3
+2020-03-24,Fiji,serious_critical,Serious Critical,NA
+2020-03-24,Fiji,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Fiji,death_rate,Death Rate,NA
+2020-03-24,Liberia,total_cases,Total Cases,3
+2020-03-24,Liberia,new_cases,New Cases,NA
+2020-03-24,Liberia,total_deaths,Total Deaths,NA
+2020-03-24,Liberia,new_deaths,NA,NA
+2020-03-24,Liberia,total_recovered,Total Recovered,NA
+2020-03-24,Liberia,active_cases,Active Cases,3
+2020-03-24,Liberia,serious_critical,Serious Critical,NA
+2020-03-24,Liberia,tot_cases_1m_pop,Total Cases per 1m Population,0.6
+2020-03-24,Liberia,death_rate,Death Rate,NA
+2020-03-24,St. Barth,total_cases,Total Cases,3
+2020-03-24,St. Barth,new_cases,New Cases,NA
+2020-03-24,St. Barth,total_deaths,Total Deaths,NA
+2020-03-24,St. Barth,new_deaths,NA,NA
+2020-03-24,St. Barth,total_recovered,Total Recovered,NA
+2020-03-24,St. Barth,active_cases,Active Cases,3
+2020-03-24,St. Barth,serious_critical,Serious Critical,NA
+2020-03-24,St. Barth,tot_cases_1m_pop,Total Cases per 1m Population,304
+2020-03-24,St. Barth,death_rate,Death Rate,NA
+2020-03-24,Saint Lucia,total_cases,Total Cases,3
+2020-03-24,Saint Lucia,new_cases,New Cases,1
+2020-03-24,Saint Lucia,total_deaths,Total Deaths,NA
+2020-03-24,Saint Lucia,new_deaths,NA,NA
+2020-03-24,Saint Lucia,total_recovered,Total Recovered,NA
+2020-03-24,Saint Lucia,active_cases,Active Cases,3
+2020-03-24,Saint Lucia,serious_critical,Serious Critical,NA
+2020-03-24,Saint Lucia,tot_cases_1m_pop,Total Cases per 1m Population,16
+2020-03-24,Saint Lucia,death_rate,Death Rate,NA
+2020-03-24,Zambia,total_cases,Total Cases,3
+2020-03-24,Zambia,new_cases,New Cases,NA
+2020-03-24,Zambia,total_deaths,Total Deaths,NA
+2020-03-24,Zambia,new_deaths,NA,NA
+2020-03-24,Zambia,total_recovered,Total Recovered,NA
+2020-03-24,Zambia,active_cases,Active Cases,3
+2020-03-24,Zambia,serious_critical,Serious Critical,NA
+2020-03-24,Zambia,tot_cases_1m_pop,Total Cases per 1m Population,0.2
+2020-03-24,Zambia,death_rate,Death Rate,NA
+2020-03-24,Gambia,total_cases,Total Cases,2
+2020-03-24,Gambia,new_cases,New Cases,1
+2020-03-24,Gambia,total_deaths,Total Deaths,NA
+2020-03-24,Gambia,new_deaths,NA,1
+2020-03-24,Gambia,total_recovered,Total Recovered,NA
+2020-03-24,Gambia,active_cases,Active Cases,1
+2020-03-24,Gambia,serious_critical,Serious Critical,NA
+2020-03-24,Gambia,tot_cases_1m_pop,Total Cases per 1m Population,0.8
+2020-03-24,Gambia,death_rate,Death Rate,NA
+2020-03-24,Sudan,total_cases,Total Cases,2
+2020-03-24,Sudan,new_cases,New Cases,NA
+2020-03-24,Sudan,total_deaths,Total Deaths,NA
+2020-03-24,Sudan,new_deaths,NA,NA
+2020-03-24,Sudan,total_recovered,Total Recovered,NA
+2020-03-24,Sudan,active_cases,Active Cases,1
+2020-03-24,Sudan,serious_critical,Serious Critical,NA
+2020-03-24,Sudan,tot_cases_1m_pop,Total Cases per 1m Population,0.05
+2020-03-24,Sudan,death_rate,Death Rate,NA
+2020-03-24,Nepal,total_cases,Total Cases,2
+2020-03-24,Nepal,new_cases,New Cases,1
+2020-03-24,Nepal,total_deaths,Total Deaths,0
+2020-03-24,Nepal,new_deaths,NA,NA
+2020-03-24,Nepal,total_recovered,Total Recovered,1
+2020-03-24,Nepal,active_cases,Active Cases,1
+2020-03-24,Nepal,serious_critical,Serious Critical,NA
+2020-03-24,Nepal,tot_cases_1m_pop,Total Cases per 1m Population,0.07
+2020-03-24,Nepal,death_rate,Death Rate,0
+2020-03-24,Benin,total_cases,Total Cases,2
+2020-03-24,Benin,new_cases,New Cases,NA
+2020-03-24,Benin,total_deaths,Total Deaths,NA
+2020-03-24,Benin,new_deaths,NA,NA
+2020-03-24,Benin,total_recovered,Total Recovered,NA
+2020-03-24,Benin,active_cases,Active Cases,2
+2020-03-24,Benin,serious_critical,Serious Critical,NA
+2020-03-24,Benin,tot_cases_1m_pop,Total Cases per 1m Population,0.2
+2020-03-24,Benin,death_rate,Death Rate,NA
+2020-03-24,Bhutan,total_cases,Total Cases,2
+2020-03-24,Bhutan,new_cases,New Cases,NA
+2020-03-24,Bhutan,total_deaths,Total Deaths,NA
+2020-03-24,Bhutan,new_deaths,NA,NA
+2020-03-24,Bhutan,total_recovered,Total Recovered,NA
+2020-03-24,Bhutan,active_cases,Active Cases,2
+2020-03-24,Bhutan,serious_critical,Serious Critical,NA
+2020-03-24,Bhutan,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Bhutan,death_rate,Death Rate,NA
+2020-03-24,Mauritania,total_cases,Total Cases,2
+2020-03-24,Mauritania,new_cases,New Cases,NA
+2020-03-24,Mauritania,total_deaths,Total Deaths,NA
+2020-03-24,Mauritania,new_deaths,NA,NA
+2020-03-24,Mauritania,total_recovered,Total Recovered,NA
+2020-03-24,Mauritania,active_cases,Active Cases,2
+2020-03-24,Mauritania,serious_critical,Serious Critical,NA
+2020-03-24,Mauritania,tot_cases_1m_pop,Total Cases per 1m Population,0.4
+2020-03-24,Mauritania,death_rate,Death Rate,NA
+2020-03-24,Myanmar,total_cases,Total Cases,2
+2020-03-24,Myanmar,new_cases,New Cases,2
+2020-03-24,Myanmar,total_deaths,Total Deaths,NA
+2020-03-24,Myanmar,new_deaths,NA,NA
+2020-03-24,Myanmar,total_recovered,Total Recovered,NA
+2020-03-24,Myanmar,active_cases,Active Cases,2
+2020-03-24,Myanmar,serious_critical,Serious Critical,NA
+2020-03-24,Myanmar,tot_cases_1m_pop,Total Cases per 1m Population,0.04
+2020-03-24,Myanmar,death_rate,Death Rate,NA
+2020-03-24,Nicaragua,total_cases,Total Cases,2
+2020-03-24,Nicaragua,new_cases,New Cases,NA
+2020-03-24,Nicaragua,total_deaths,Total Deaths,NA
+2020-03-24,Nicaragua,new_deaths,NA,NA
+2020-03-24,Nicaragua,total_recovered,Total Recovered,NA
+2020-03-24,Nicaragua,active_cases,Active Cases,2
+2020-03-24,Nicaragua,serious_critical,Serious Critical,NA
+2020-03-24,Nicaragua,tot_cases_1m_pop,Total Cases per 1m Population,0.3
+2020-03-24,Nicaragua,death_rate,Death Rate,NA
+2020-03-24,Niger,total_cases,Total Cases,2
+2020-03-24,Niger,new_cases,New Cases,NA
+2020-03-24,Niger,total_deaths,Total Deaths,NA
+2020-03-24,Niger,new_deaths,NA,NA
+2020-03-24,Niger,total_recovered,Total Recovered,NA
+2020-03-24,Niger,active_cases,Active Cases,2
+2020-03-24,Niger,serious_critical,Serious Critical,NA
+2020-03-24,Niger,tot_cases_1m_pop,Total Cases per 1m Population,0.08
+2020-03-24,Niger,death_rate,Death Rate,NA
+2020-03-24,Sint Maarten,total_cases,Total Cases,2
+2020-03-24,Sint Maarten,new_cases,New Cases,1
+2020-03-24,Sint Maarten,total_deaths,Total Deaths,NA
+2020-03-24,Sint Maarten,new_deaths,NA,NA
+2020-03-24,Sint Maarten,total_recovered,Total Recovered,NA
+2020-03-24,Sint Maarten,active_cases,Active Cases,2
+2020-03-24,Sint Maarten,serious_critical,Serious Critical,NA
+2020-03-24,Sint Maarten,tot_cases_1m_pop,Total Cases per 1m Population,47
+2020-03-24,Sint Maarten,death_rate,Death Rate,NA
+2020-03-24,Belize,total_cases,Total Cases,1
+2020-03-24,Belize,new_cases,New Cases,1
+2020-03-24,Belize,total_deaths,Total Deaths,NA
+2020-03-24,Belize,new_deaths,NA,NA
+2020-03-24,Belize,total_recovered,Total Recovered,NA
+2020-03-24,Belize,active_cases,Active Cases,1
+2020-03-24,Belize,serious_critical,Serious Critical,NA
+2020-03-24,Belize,tot_cases_1m_pop,Total Cases per 1m Population,3
+2020-03-24,Belize,death_rate,Death Rate,NA
+2020-03-24,Chad,total_cases,Total Cases,1
+2020-03-24,Chad,new_cases,New Cases,NA
+2020-03-24,Chad,total_deaths,Total Deaths,NA
+2020-03-24,Chad,new_deaths,NA,NA
+2020-03-24,Chad,total_recovered,Total Recovered,NA
+2020-03-24,Chad,active_cases,Active Cases,1
+2020-03-24,Chad,serious_critical,Serious Critical,NA
+2020-03-24,Chad,tot_cases_1m_pop,Total Cases per 1m Population,0.06
+2020-03-24,Chad,death_rate,Death Rate,NA
+2020-03-24,Dominica,total_cases,Total Cases,1
+2020-03-24,Dominica,new_cases,New Cases,NA
+2020-03-24,Dominica,total_deaths,Total Deaths,NA
+2020-03-24,Dominica,new_deaths,NA,NA
+2020-03-24,Dominica,total_recovered,Total Recovered,NA
+2020-03-24,Dominica,active_cases,Active Cases,1
+2020-03-24,Dominica,serious_critical,Serious Critical,NA
+2020-03-24,Dominica,tot_cases_1m_pop,Total Cases per 1m Population,14
+2020-03-24,Dominica,death_rate,Death Rate,NA
+2020-03-24,Eritrea,total_cases,Total Cases,1
+2020-03-24,Eritrea,new_cases,New Cases,NA
+2020-03-24,Eritrea,total_deaths,Total Deaths,NA
+2020-03-24,Eritrea,new_deaths,NA,NA
+2020-03-24,Eritrea,total_recovered,Total Recovered,NA
+2020-03-24,Eritrea,active_cases,Active Cases,1
+2020-03-24,Eritrea,serious_critical,Serious Critical,NA
+2020-03-24,Eritrea,tot_cases_1m_pop,Total Cases per 1m Population,0.3
+2020-03-24,Eritrea,death_rate,Death Rate,NA
+2020-03-24,Grenada,total_cases,Total Cases,1
+2020-03-24,Grenada,new_cases,New Cases,NA
+2020-03-24,Grenada,total_deaths,Total Deaths,NA
+2020-03-24,Grenada,new_deaths,NA,NA
+2020-03-24,Grenada,total_recovered,Total Recovered,NA
+2020-03-24,Grenada,active_cases,Active Cases,1
+2020-03-24,Grenada,serious_critical,Serious Critical,NA
+2020-03-24,Grenada,tot_cases_1m_pop,Total Cases per 1m Population,9
+2020-03-24,Grenada,death_rate,Death Rate,NA
+2020-03-24,Vatican City,total_cases,Total Cases,1
+2020-03-24,Vatican City,new_cases,New Cases,NA
+2020-03-24,Vatican City,total_deaths,Total Deaths,NA
+2020-03-24,Vatican City,new_deaths,NA,NA
+2020-03-24,Vatican City,total_recovered,Total Recovered,NA
+2020-03-24,Vatican City,active_cases,Active Cases,1
+2020-03-24,Vatican City,serious_critical,Serious Critical,NA
+2020-03-24,Vatican City,tot_cases_1m_pop,Total Cases per 1m Population,1248
+2020-03-24,Vatican City,death_rate,Death Rate,NA
+2020-03-24,Montserrat,total_cases,Total Cases,1
+2020-03-24,Montserrat,new_cases,New Cases,NA
+2020-03-24,Montserrat,total_deaths,Total Deaths,NA
+2020-03-24,Montserrat,new_deaths,NA,NA
+2020-03-24,Montserrat,total_recovered,Total Recovered,NA
+2020-03-24,Montserrat,active_cases,Active Cases,1
+2020-03-24,Montserrat,serious_critical,Serious Critical,NA
+2020-03-24,Montserrat,tot_cases_1m_pop,Total Cases per 1m Population,200
+2020-03-24,Montserrat,death_rate,Death Rate,NA
+2020-03-24,Mozambique,total_cases,Total Cases,1
+2020-03-24,Mozambique,new_cases,New Cases,NA
+2020-03-24,Mozambique,total_deaths,Total Deaths,NA
+2020-03-24,Mozambique,new_deaths,NA,NA
+2020-03-24,Mozambique,total_recovered,Total Recovered,NA
+2020-03-24,Mozambique,active_cases,Active Cases,1
+2020-03-24,Mozambique,serious_critical,Serious Critical,NA
+2020-03-24,Mozambique,tot_cases_1m_pop,Total Cases per 1m Population,0.03
+2020-03-24,Mozambique,death_rate,Death Rate,NA
+2020-03-24,Papua New Guinea,total_cases,Total Cases,1
+2020-03-24,Papua New Guinea,new_cases,New Cases,NA
+2020-03-24,Papua New Guinea,total_deaths,Total Deaths,NA
+2020-03-24,Papua New Guinea,new_deaths,NA,NA
+2020-03-24,Papua New Guinea,total_recovered,Total Recovered,NA
+2020-03-24,Papua New Guinea,active_cases,Active Cases,1
+2020-03-24,Papua New Guinea,serious_critical,Serious Critical,NA
+2020-03-24,Papua New Guinea,tot_cases_1m_pop,Total Cases per 1m Population,0.1
+2020-03-24,Papua New Guinea,death_rate,Death Rate,NA
+2020-03-24,St. Vincent Grenadines,total_cases,Total Cases,1
+2020-03-24,St. Vincent Grenadines,new_cases,New Cases,NA
+2020-03-24,St. Vincent Grenadines,total_deaths,Total Deaths,NA
+2020-03-24,St. Vincent Grenadines,new_deaths,NA,NA
+2020-03-24,St. Vincent Grenadines,total_recovered,Total Recovered,NA
+2020-03-24,St. Vincent Grenadines,active_cases,Active Cases,1
+2020-03-24,St. Vincent Grenadines,serious_critical,Serious Critical,NA
+2020-03-24,St. Vincent Grenadines,tot_cases_1m_pop,Total Cases per 1m Population,9
+2020-03-24,St. Vincent Grenadines,death_rate,Death Rate,NA
+2020-03-24,Somalia,total_cases,Total Cases,1
+2020-03-24,Somalia,new_cases,New Cases,NA
+2020-03-24,Somalia,total_deaths,Total Deaths,NA
+2020-03-24,Somalia,new_deaths,NA,NA
+2020-03-24,Somalia,total_recovered,Total Recovered,NA
+2020-03-24,Somalia,active_cases,Active Cases,1
+2020-03-24,Somalia,serious_critical,Serious Critical,NA
+2020-03-24,Somalia,tot_cases_1m_pop,Total Cases per 1m Population,0.06
+2020-03-24,Somalia,death_rate,Death Rate,NA
+2020-03-24,Syria,total_cases,Total Cases,1
+2020-03-24,Syria,new_cases,New Cases,NA
+2020-03-24,Syria,total_deaths,Total Deaths,NA
+2020-03-24,Syria,new_deaths,NA,NA
+2020-03-24,Syria,total_recovered,Total Recovered,NA
+2020-03-24,Syria,active_cases,Active Cases,1
+2020-03-24,Syria,serious_critical,Serious Critical,NA
+2020-03-24,Syria,tot_cases_1m_pop,Total Cases per 1m Population,0.06
+2020-03-24,Syria,death_rate,Death Rate,NA
+2020-03-24,Timor-Leste,total_cases,Total Cases,1
+2020-03-24,Timor-Leste,new_cases,New Cases,NA
+2020-03-24,Timor-Leste,total_deaths,Total Deaths,NA
+2020-03-24,Timor-Leste,new_deaths,NA,NA
+2020-03-24,Timor-Leste,total_recovered,Total Recovered,NA
+2020-03-24,Timor-Leste,active_cases,Active Cases,1
+2020-03-24,Timor-Leste,serious_critical,Serious Critical,NA
+2020-03-24,Timor-Leste,tot_cases_1m_pop,Total Cases per 1m Population,0.8
+2020-03-24,Timor-Leste,death_rate,Death Rate,NA
+2020-03-24,Turks and Caicos,total_cases,Total Cases,1
+2020-03-24,Turks and Caicos,new_cases,New Cases,1
+2020-03-24,Turks and Caicos,total_deaths,Total Deaths,NA
+2020-03-24,Turks and Caicos,new_deaths,NA,NA
+2020-03-24,Turks and Caicos,total_recovered,Total Recovered,NA
+2020-03-24,Turks and Caicos,active_cases,Active Cases,1
+2020-03-24,Turks and Caicos,serious_critical,Serious Critical,NA
+2020-03-24,Turks and Caicos,tot_cases_1m_pop,Total Cases per 1m Population,26
+2020-03-24,Turks and Caicos,death_rate,Death Rate,NA
+2020-03-24,Uganda,total_cases,Total Cases,1
+2020-03-24,Uganda,new_cases,New Cases,NA
+2020-03-24,Uganda,total_deaths,Total Deaths,NA
+2020-03-24,Uganda,new_deaths,NA,NA
+2020-03-24,Uganda,total_recovered,Total Recovered,NA
+2020-03-24,Uganda,active_cases,Active Cases,1
+2020-03-24,Uganda,serious_critical,Serious Critical,NA
+2020-03-24,Uganda,tot_cases_1m_pop,Total Cases per 1m Population,0.02
+2020-03-24,Uganda,death_rate,Death Rate,NA
