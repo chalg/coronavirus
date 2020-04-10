@@ -24,6 +24,7 @@ I have used gghighlight to highlight Australia in some plots. Please fee free to
 ```
 gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
 ```
+![] (images/total_cases_per_1m_log.png)
 
 ### Report Communication
 
