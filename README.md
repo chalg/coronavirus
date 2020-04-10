@@ -14,7 +14,18 @@ If you wish to try this out on your own, you will need R installed. I used the f
 - library(httr)        # calling API from a URL
 - library(jsonlite)    # manipulating JSON structure
 - library(lubridate)   # manipulating dates
-- library(scales)      # minipulating ggplot scales
+- library(scales)      # manipulating ggplot scales
+
+| Library  | Rationale |
+| ---------- | -------------------------------------------------------------------- |
+| rvest      | webscraping                                                          |
+| janitor    | clean column names                                                   |
+| tidyverse  | reading in data, general manipulation of data and plotting (ggplot2) |
+| gghighlight| used to highlight certain lines in geom_line                         |
+| httr       | calling API from a URL                                               |
+| jsonlite   | manipulating JSON structure                                          |
+| lubridate  | manipulating dates                                                   |
+| scales     | manipulating ggplot scales                                           |
 
 
 ### Tips
