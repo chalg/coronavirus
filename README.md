@@ -27,7 +27,9 @@ gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
 
 ### Report Communication
 
-I use the below script to send myself and family/friends an email with RMarkdown HTML file attached every morning at 6am. I use Windows task scheduler, however you may use any tool you prefer.
+I use the below script to send myself and family/friends an email with RMarkdown HTML file attached every morning at 6am. This provides a dual function by also writing each days data to csv file, which is also read in for the time series trend plot (line_plot chunk) via the purrr function map_df & read_csv. 
+
+I use Windows task scheduler, however you may use any tool you prefer.
 
 ```
 library(rmarkdown)
@@ -79,6 +81,6 @@ if (TRUE %in% (list.files() == fn)) {
 ## Acknowledgments
 
 * Jennifer Cooper for the [LinkedIn post](https://www.linkedin.com/posts/jennifermariecoopermba_instructions-to-pull-coronavirus-stats-from-ugcPost-6639362773132333056-BR1_) explaining webscraping in R in simple terms.
-* Infotorch for providing a simple [API]("https://api.infotorch.org/api/covid19/statlist/?geos=NSW,VIC,QLD,WA,SA,TAS,ACT,NT&stat=confirmed") to play with.
+* Infotorch for providing a simple [API](https://api.infotorch.org/api/covid19/statlist/?geos=NSW,VIC,QLD,WA,SA,TAS,ACT,NT&stat=confirmed) to play with.
 * [Worldmeters](https://www.worldometers.info/coronavirus/) for providing HTML table to scrap.
 
