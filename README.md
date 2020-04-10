@@ -8,7 +8,7 @@ Use R Markdown to create a Coronavirus Snapshot Report.
 If you wish to try this out on your own, you will need R installed. I used the following libraries:
 
 | Library  | Rationale |
-| ---------- | -------------------------------------------------------------------- |
+| :---------- | :-------------------------------------------------------------------- |
 | `rvest`      | webscraping                                                          |
 | `janitor`    | clean column names                                                   |
 | `tidyverse`  | reading in data, general manipulation of data and plotting (ggplot2) |
