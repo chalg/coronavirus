@@ -84,7 +84,7 @@ if (TRUE %in% (list.files() == fn)) {
 
 ## Authors
 
-* **Grant Chalmers** 
+* **Grant Chalmers** [Twitter profile](https://twitter.com/GrantChalmers)
 
 
 ## Acknowledgments
