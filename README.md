@@ -1,4 +1,4 @@
-# Project Title
+# Coronavirus R Markdown Report
 
 Use R Markdown to create a Coronavirus Snapshot Report.
 
@@ -7,23 +7,30 @@ Use R Markdown to create a Coronavirus Snapshot Report.
 
 If you wish to try this out on your own, you will need R installed. I used the following libraries:
 
-library(rvest)       # webscraping
-library(janitor)     # clean column names
-library(tidyverse)	 # reading in data, general manipulation of data and plotting (ggplot2) 
-library(gghighlight) # used to highlight certain lines in geom_line
-library(httr)        # calling API from a URL
-library(jsonlite)    # manipulating JSON structure
-library(lubridate)   # manipulating dates
-library(scales)      # minipulating ggplot scales
+- library(rvest)       # webscraping
+- library(janitor)     # clean column names
+- library(tidyverse)   # reading in data, general manipulation of data and plotting (ggplot2) 
+- library(gghighlight) # used to highlight certain lines in geom_line
+- library(httr)        # calling API from a URL
+- library(jsonlite)    # manipulating JSON structure
+- library(lubridate)   # manipulating dates
+- library(scales)      # minipulating ggplot scales
 
 
 ### Tips
 
-I have used gghighlight to highlight Australia in some plots. Please fee free to delete or update to your own country of interest:
+I have used gghighlight to highlight Australia in some plots. Please fee free to delete or update to your own country of interest.
 
 ```
-gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+gghighlight(country == "Australia", unhighlighted_colour = "gray75")
 ```
+
+In the below example, I have randomly chosen 9 out of the top 100 fastest growing countries in relation to new cases:
+
+```
+ggghighlight(country %in% sample(top_100_new_cases, 9)
+```
+
 ![](images/total_cases_per_1m_log.png)
 
 ### Report Communication
