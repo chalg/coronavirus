@@ -2,6 +2,8 @@
 
 Use R Markdown to create a Coronavirus Snapshot Report.
 
+This report imports all data via webscraping and API. Both are simple examples and implementations, so provide a learning experience for those interested in starting off in these areas.
+
 
 ### Prerequisites
 
