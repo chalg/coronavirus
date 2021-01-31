@@ -4,7 +4,10 @@ author: "Author: Grant Chalmers"
 date: "Created 5 Mar, 2020; Last Update `r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
+    code_folding: none
     df_print: paged
+    highlight: tango
+    theme: flatly
     
 ---
 
@@ -148,7 +151,10 @@ all_corona %>% filter(!is.na(count), !obs_ord %in% c("Death Rate", "Total Cases 
 ### Australian totals..
 
 ```{r oz_totals, echo=FALSE}
-all_corona %>% filter(!is.na(count), !is.na(obs_ord), country == "Australia") %>%
+all_corona %>% filter(
+  !is.na(count),
+  !is.na(obs_ord),
+  country == "Australia") %>%
   group_by(country, obs_ord) %>%
   summarise(grp_tot = sum(count)) %>% 
   select(Country = country,
@@ -156,6 +162,7 @@ all_corona %>% filter(!is.na(count), !is.na(obs_ord), country == "Australia") %>
          Total = grp_tot) %>% 
    knitr::kable(format.args = list(decimal.mark = '.', big.mark = ","))
 ```
+
 
 ### Death Rates
 
@@ -225,7 +232,7 @@ all_corona %>%
 
 Time series trend (log scale) for selected countries. 
 
-*Highlight 9 random countries out of the top 100 for some variety each day!!*
+*Highlight 9 random countries out of the top 100 for some variety each week!!*
 
 ```{r line_plot, echo=FALSE}
 data_path <- "~/R/coronavirus/data/"   # path to the data
@@ -251,12 +258,12 @@ coronadf %>%
   geom_line(aes(colour = country), size = 1) +
   gghighlight(country %in% sample(top_100_new_cases, 9),     # try randon sample
   # gghighlight(country %in% c("Australia", "Kazakhstan", "Canada", "Namibia", "Ukraine",
-  #                            "Niger", "China", "Russia", "Uzbekistan", "United States"),
+  #                             "Niger", "China", "Russia", "Uzbekistan", "United States"),
               unhighlighted_colour = ggplot2::alpha("grey", 0.7),
               use_group_by = FALSE, label_key = country, label_params = list(size = 3, alpha = 0.75)) +
   # scale_y_continuous(trans = 'log10') +
   scale_y_log10(labels = scales::comma) +
-  scale_x_date(date_breaks = "3 day", date_labels = "%d %b") +
+  scale_x_date(date_breaks = "2 week", date_labels = "%d %b") +
   labs(title = "Coronavirus Trend - Total cases",
        y = "Total Cases per 1m Population (log scale)", x = "",
        caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") + 
@@ -305,6 +312,39 @@ all_corona %>%
         legend.title = element_blank())
 ```
 
+```{r new_cases_line, echo=FALSE}
+corona_tbl <- coronadf %>% 
+  filter(country %in% c("Australia", "Italy", "Singapore", "South Korea", "Spain",
+                        "China", "Iran", "India", "Brazil"),
+         observation %in% c("new_cases"),
+         !is.na(count))
+
+# corona_tbl %>% glimpse()
+
+corona_tbl %>% 
+  ggplot(aes(tstamp, count, colour = country)) +
+  geom_line(size = 1) +
+  ggrepel::geom_label_repel(data = corona_tbl %>% filter(tstamp == max(tstamp)),
+            aes(x = tstamp, y = count, label = country, group = country), size = 2.5) +
+  # geom_smooth(se = FALSE) +
+  scale_y_log10(labels = scales::comma) +
+  scale_x_date(date_breaks = "2 week", date_labels = "%d %b") +
+  labs(title = "Coronavirus Trend - New cases (daily)",
+       y = "New Cases (log scale)", x = "",
+       caption = "Source: @GrantChalmers | https://www.worldometers.info/coronavirus/") + 
+  theme_light() +
+  theme(plot.title = element_text(size = 11, face = "bold"),
+        axis.text.x = element_text(size = 10, angle = 00),
+        axis.title.x = element_text(size = 9),
+        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+        plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"),
+        axis.title = element_text(size = 11), legend.position = "none",
+        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+        legend.title = element_blank())
+```
+
+
+
 ### Active Cases
 
 ```{r lollipop_active_cases, echo=FALSE}
@@ -314,12 +354,12 @@ all_corona %>%
   group_by(observation) %>%
   top_n(n = 50, wt = count) %>%
   ggplot(aes(x=fct_reorder(country, count), y=count)) +
-  geom_point(size=3, colour = "peru") + 
+  geom_point(size=3, colour = "plum") + 
   geom_segment(aes(x=country, 
                    xend=country, 
                    y=0, 
-                   yend=count), colour = "peru", size = 0.75) +
-  gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+                   yend=count), colour = "plum", size = 0.75) +
+  # gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
   coord_flip() +
   scale_y_log10(labels = scales::comma) +
   labs(title = "Coronavirus Active Cases by Country (top 50)",
@@ -344,12 +384,12 @@ all_corona %>%
   group_by(observation) %>%
   top_n(n = 50, wt = count) %>%
   ggplot(aes(x=fct_reorder(country, count), y=count)) +
-  geom_point(size=3, colour = "peru") + 
+  geom_point(size=3, colour = "seagreen3") + 
   geom_segment(aes(x=country, 
                    xend=country, 
                    y=0, 
-                   yend=count), colour = "peru", size = 0.75) +
-  gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
+                   yend=count), colour = "seagreen3", size = 0.75) +
+  # gghighlight(country == "Australia", unhighlighted_colour = "gray75") +
   coord_flip() +
   scale_y_log10(labels = scales::comma) +
   # facet_wrap(~ obs_ord, scales = "free") +
@@ -367,54 +407,53 @@ all_corona %>%
         legend.title = element_blank())
 ```
 
-### Australian States
 
 ```{r oz_states, echo=FALSE}
 
-# Gather Australian geos info.
-get_corona <- GET("https://api.infotorch.org/api/covid19/statlist/?geos=NSW,VIC,QLD,WA,SA,TAS,ACT,NT&stat=confirmed")
-get_text <- content(get_corona, "text")
-get_json <- fromJSON(get_text, flatten = TRUE)
-coronadf <- as_tibble(get_json)
-
-# Drop columns, unest data (list) column, spread, rename & export to csv
-corona_au <- coronadf %>%
-  select(-id, -geo_long) %>% 
-  unnest(data) %>% 
-  group_by(geo, x, y) %>% 
-  select(state = geo,
-         stat,
-         date = x,
-         value = y) %>%
-  ungroup() %>% 
-  mutate(date = as_date(date)) 
-
-# corona_au %>% glimpse()
-
-corona_au %>% 
-  ggplot(aes(date, value, colour = state)) +
-  geom_line(size = 1) +
-  geom_text(data = corona_au %>% filter(date == max(date)),
-            aes(x = date, y = value, label = state, group = state),
-            position = position_dodge(0.9), size = 3, hjust = -0.25) +
-  scale_y_continuous(labels = scales::comma) +
-  scale_x_date(date_breaks = "3 day", date_labels = "%d %b") +
-  scale_colour_brewer(palette = "Dark2") +
-  labs(title = "Coronavirus Confirmed Cases Australian States",
-       y = "Confirmed Cases", x = "", colour = "State",
-       caption = "Source: @GrantChalmers | https://github.com/infotorch/covid19-australia-api") + 
-  theme_light() +
-  theme(plot.title = element_text(size = 11, face = "bold"),
-        axis.text.x = element_text(size = 10, angle = 00),
-        axis.title.x = element_text(size = 9),
-        strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
-        plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"),
-        axis.title = element_text(size = 11), legend.position = "none",
-        plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
-        legend.title = element_blank())
-
-ggsave("corona_au_states.png", path = "images", width = 8, height = 6)
-
+# # Gather Australian geos info.
+# get_corona <- GET("https://api.infotorch.org/api/covid19/statlist/?geos=NSW,VIC,QLD,WA,SA,TAS,ACT,NT&stat=confirmed")
+# get_text <- content(get_corona, "text")
+# get_json <- fromJSON(get_text, flatten = TRUE)
+# coronadf <- as_tibble(get_json)
+# 
+# # Drop columns, unest data (list) column, spread, rename & export to csv
+# corona_au <- coronadf %>%
+#   select(-id, -geo_long) %>% 
+#   unnest(data) %>% 
+#   group_by(geo, x, y) %>% 
+#   select(state = geo,
+#          stat,
+#          date = x,
+#          value = y) %>%
+#   ungroup() %>% 
+#   mutate(date = as_date(date)) 
+# 
+# # corona_au %>% glimpse()
+# 
+# corona_au %>% 
+#   ggplot(aes(date, value, colour = state)) +
+#   geom_line(size = 1) +
+#   geom_text(data = corona_au %>% filter(date == max(date)),
+#             aes(x = date, y = value, label = state, group = state),
+#             position = position_dodge(0.9), size = 3, hjust = -0.25) +
+#   scale_y_continuous(labels = scales::comma) +
+#   scale_x_date(date_breaks = "2 week", date_labels = "%d %b") +
+#   scale_colour_brewer(palette = "Dark2") +
+#   labs(title = "Coronavirus Confirmed Cases Australian States",
+#        y = "Confirmed Cases", x = "", colour = "State",
+#        caption = "Source: @GrantChalmers | https://github.com/infotorch/covid19-australia-api") + 
+#   theme_light() +
+#   theme(plot.title = element_text(size = 11, face = "bold"),
+#         axis.text.x = element_text(size = 10, angle = 00),
+#         axis.title.x = element_text(size = 9),
+#         strip.text.x = element_text(size = 10, colour = "darkgreen", face = "bold"),
+#         plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"),
+#         axis.title = element_text(size = 11), legend.position = "none",
+#         plot.caption = element_text(size = 7.5, color = "gray50", face = "italic"),
+#         legend.title = element_blank())
+# 
+# ggsave("corona_au_states.png", path = "images", width = 8, height = 6)
+# 
 
 ```
 
